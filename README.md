@@ -1,5 +1,11 @@
 # Tiráž {#index}
 
+![978-80-88168-24-9](/assets/26198014_338516999959219_6557738540132501234_o.jpg)
+
+
+
+
+
 ## HRADLA, VOLTY, JEDNOČIPY
 
 ### Úvod do bastlení
