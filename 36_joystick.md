@@ -2,7 +2,7 @@
 
 V dobách osmibitových počítačů byl joystick velmi důležitou periferií, bez níž se neobešel žádný hráč. Technicky jde o rukojeť, k níž jsou připojena čtyři tlačítka do kříže, a jedno, dvě či tři „akční“ tlačítka.
 
-![392-1.jpeg](../images/00003.jpeg)
+![392-1.jpeg](./images/00003.jpeg)
 
 CC-BY-SA, autor Kshade
 
@@ -14,13 +14,13 @@ Tyto joysticky znáte například z ovladačů pro herní konzole. Dají se ale 
 
 Připojení k Arduinu je opět prosté – analogové výstupy připojíme k analogovým vstupům, tlačítko k některému digitálnímu vstupu… Před použitím je dobré změřit, jaké hodnoty Arduino přečte na pinech A0 a A1 při maximální výchylce všemi směry, a jaká hodnota je pro joystick v klidu, a podle toho přepočítat naměřená data na použitelné hodnoty (říká se tomu _kalibrace joysticku_).
 
-![393-1.png](../images/000327.png)
+![393-1.png](./images/000327.png)
 
 Zkuste si spojit toto zapojení třeba s už dříve uvedeným grafickým displejem. Pomocí pohybu joysticku můžete kreslit po displeji, případně ovládat kurzor. Ovšem naprogramování už nechám na vás…
 
 Jen pro jistotu připomínám, že tlačítko je jen obyčejný spínač, který spíná k zemi, a že je nezbytně nutné mít tedy co? Ano, je nezbytně nutné mít pull-up rezistor! Buď externí, přímo připojený, nebo povolit interní pull-up rezistory v Arduinu.
 
-![394-1.png](../images/000021.png)
+![394-1.png](./images/000021.png)
 
 Schéma a zdrojový kód najdete na [eknh.cz/joydis](https://eknh.cz/joydis)
 
