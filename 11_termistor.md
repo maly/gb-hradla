@@ -2,7 +2,7 @@
 
 Už několikrát jsem tu zmínil v nejrůznějších obměnách větu „… a odpor závisí i na teplotě“. U většiny součástek je to vlastnost nevítaná, ale někdy se hodí – třeba pro měření teploty. Vyrábí se k tomu speciální součástky – rezistory s odporem, závislým na teplotě, zvané termistory.
 
-![124-1.jpeg](../images/00300.jpeg)
+![124-1.jpeg](./images/00300.jpeg)
 
 Termistory jsou dvojího typu – jedny, ty běžnější, fungují tak, že s rostoucí teplotou jejich odpor klesá (označují se jako NTC), druhé, označované PTC, svůj odpor s rostoucí teplotou zvyšují.
 
@@ -12,7 +12,7 @@ V EduShieldu je také termistor, ale zapojený na vstup A1.
 
 Po načtení získáte celé číslo v rozmezí 0 až 1023\. Jak přepočítat toto číslo na skutečnou teplotu? No, není to úplně triviální. Vzorec (jmenuje se Steinhartův-Hartův, Steinhart-Hart Equation) vypadá takto:
 
-![124-2.png](../images/000310.png)
+![124-2.png](./images/000310.png)
 
 „Magické“ hodnoty B, R0 a T0 naleznete v datasheetu k danému termistoru. T0 je referenční pokojová teplota 25 °C, R0 je odpor rezistoru při této teplotě (například 10 000 ohmů) a B je teplotní koeficient (například u termistoru, který je v EduShieldu, je to 3950).
 
