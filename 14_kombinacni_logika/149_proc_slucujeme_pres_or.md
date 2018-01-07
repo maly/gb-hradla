@@ -1,0 +1,3 @@
+## 14.9 Proč slučujeme přes OR? {#14-9-pro-slu-ujeme-p-es-or}
+
+Ano, správná otázka. To bychom nemohli ty vývody prostě jen tak spojit dohromady drátem? No, mohli. Taky bychom mohli zkratovat baterii hřebíkem, ale neděláme to. Důvod je, že by to nefungovalo tak, jak si představujeme. U logických obvodů totiž platí, že proud může téci z výstupu i do výstupu (za chvíli si řekneme, proč to tak je). A pokud bychom spojili „jen tak drátem“ vývody dvou hradel, a na jednom by byla výstupní hodnota 0, na druhém 1, tekl by proud z jednoho výstupu do výstupu druhého hradla a jen by se darmo pálila elektřina. Pokud chceme nějak „sloučit“ výstupy hradel, musíme vždy použít logickou funkci (pravděpodobně OR). Existují výjimky, ke kterým se dostanu za chvilku.

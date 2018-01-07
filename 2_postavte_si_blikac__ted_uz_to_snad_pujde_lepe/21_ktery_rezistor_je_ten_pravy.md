@@ -1,0 +1,5 @@
+## 2.1 Který rezistor je ten pravý? {#2-1-kter-rezistor-je-ten-prav}
+
+Na většině součástek je napsán alespoň typ, nebo základní hodnota. Rezistory, které používáme, ale vypadají jako takové miniaturní válečky s dvěma vývody. Bohužel, pokud máte miniaturní rezistory 0,25 W, tak na nich není moc prostoru k nějakému rozepisování. Místo toho na nich jsou barevné proužky, které udávají odpor a přesnost (toleranci). Pro odpor 10K to jsou hnědá, modrá a oranžová, takže – lupu do ruky, pořádné světlo, a hledat! Já nevím jak ostatní, ale já často na rezistor koukám, a přemýšlím, jestli to je hnědý proužek nebo červený, jestli ten vedle je modrý nebo černý, pak přemýšlím, jestli ho nedržím obráceně, a nakonec sáhnu pro multimetr a prostě jej změřím. Udělejte to taky tak.
+
+Přemýšlel jsem, jestli sem tu tabulku dávat, a nakonec jsem ji nezařadil. Najdete ji kdekoli na internetu, stačí hledat „barevné značení rezistorů“, nebo v jakékoli jiné knížce o elektronice. Já si říkám, že se bez přesné znalosti v číslicové technice docela dobře obejdete. Stačí vám vědět, že něco takového je, a kde to popřípadě najdete.

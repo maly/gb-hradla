@@ -1,0 +1,7 @@
+## 18.9 Synchronní / Asynchronní {#18-9-synchronn-asynchronn}
+
+U takového zapojení hovoříme o synchronním vstupu D. Slovo „synchronní“ znamená, že se jeho změny projeví v obvodu až poté, co nastane nějaká událost – zde příchod hodinového pulsu. Pouze pokud přijde hodinový puls, může se vstup nějak projevit. Naproti tomu vstupy R, S u dříve zmíněného klopného obvodu R-S jsou vstupy asynchronní – změna na těchto vstupech se okamžitě projeví na výstupech.
+
+Jak jsem psal už na začátku kapitoly: pokud je ve hře zpětná vazba, je potřeba ji zkrotit a dát ji zcela jasné mantinely. Takovým mantinelem jsou v číslicových systémech právě hodinové pulsy. Hodinové pulsy _synchronizují_ celý obvod a zajišťují, že se něco stane až po něčem jiném, že změny nastanou ve stejný okamžik, že jedna část obvodu se nezmění jindy než jiná, a pokud ano, tak že to nebude mít vliv na výstup, a tak dále...
+
+Proto u složitějších obvodů vždy všechno řídíme hodinovými pulsy. Nechceme, aby se cokoli měnilo halabala, protože pak můžou nastat hazardní stavy. Vždy všechno důsledně řízené hodinami a synchronní. Asynchronní vstup znamená vždy výjimečnou událost, a jako takový by měl být používaný. RESET či přerušení je asynchronní událost, vše ostatní by mělo být synchronní. Jakmile ztratíme synchronizaci, rozsype se funkce celého obvodu, a to znamená třeba ztrátu dat při přenosu, vznik falešných dat a podobné chyby funkčnosti.

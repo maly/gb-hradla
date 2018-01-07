@@ -1,0 +1,9 @@
+## 18.1 Astabi-cože? {#18-1-astabi-co-e}
+
+Stvořili jsme astabilní klopný obvod. Klopné obvody jsou obvody, které definovaným způsobem mohou měnit svůj stav v čase. Rozlišujeme tři základní druhy. Klopný obvod _astabilní_ nemá žádný pevný, stabilní stav. Střídá na výstupu 1 a 0 a ignoruje přitom okolí. Druhý typ obvodů je _monostabilní_. Má jeden stálý stav (třeba log. 0), ale na základě nějakého vnějšího vlivu může přejít do druhého stavu (třeba log. 1), z něhož se ale po čase vrátí zpět do toho stálého. No a konečně třetí typ jsou _bistabilní_ klopné obvody. Ty mohou být ve dvou různých stavech, a jakmile v jednom z nich jsou, jsou v něm neomezeně dlouho – až dokud okolí nezpůsobí jejich přepnutí.
+
+Bistabilní obvod bych přirovnal třeba k vypínači od lustru: je buď zapnutý, nebo vypnutý, a setrvává v tom stavu až do doby, než ho vnější vliv nepřiměje stav změnit. Monostabilní obvod v téže analogii funguje jako schodišťové osvětlení: stisknutím rozsvítíte, a po čase samo zhasne.
+
+Astabilní obvody (oscilátory) se používají v číslicové technice často, a to ke generování časových pulsů o nějaké frekvenci. Příklad: chcete si postavit digitální hodiny. Začnete tedy tím, že si postavíte astabilní klopný obvod, který bude generovat pulzy s frekvencí 1 Hz a víte, že co puls, to sekunda. _Ve skutečnosti ale použijete obvod, který bude kmitat na frekvenci vyšší (třeba 32,768 kHz) a několikerým dělením získáte kýžený 1 Hz. Proč? Protože pro 32,768 kHz seženete přesnou součástku, zvanou „krystal“, která se o frekvenci postará._
+
+Ještě častěji se potkáte s bistabilními obvody. Důvodem je to, že si pamatují svůj stav, což se hodí pro nejrůznější účely, od prostého zapamatování hodnoty po konstrukci složitějších obvodů, jako jsou děličky frekvencí, čítače, posuvné registry a spousta dalších zábavných komponent.

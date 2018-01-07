@@ -1,0 +1,7 @@
+## 13.1 Stavebnice {#13-1-stavebnice}
+
+Vždycky zájemcům říkám, že není čeho se bát. Že to všechno, co mají ve svém počítači, jsou vlastně tytéž tranzistory a rezistory, jen poskládané do větších a větších funkčních celků.
+
+Z několika tranzistorů je poskládané takzvané logické hradlo. To je součástka, která dělá právě jednu logickou funkci. K nim se dostaneme vzápětí. Několik logických hradel dohromady dává větší celek – kombinační obvody či sekvenční obvody. Multiplexory, demultiplexory, dekodéry, registry, čítače, klopné obvody, sčítačky… Nebojte, za chvíli si vysvětlíme, co jednotlivé výrazy znamenají. Tyto obvody se opět dají kombinovat do větších celků – mnoho registrů spolu s datovými multiplexory a adresními dekodéry tvoří paměť. Několik sčítaček a hradel spolu s multiplexory vytvoří aritmeticko-logickou jednotku. Čítače zapojené za sebou dají třeba „programový čítač“ (PC). Když zkombinujeme registry, čítače, aritmeticko-logickou jednotku a dobře navržené dekodéry, získáme mikroprocesor. Jednoduché registry s posíleným výstupem vytvoří obvody pro vstup a výstup… Z toho všeho pak můžeme poskládat vlastní počítač. A věřte tomu, že váš domácí počítač vypadá uvnitř přesně tak, jak jsem popsal – každý z těch obvodů, který v něm vidíte, když ho rozmontujete, se uvnitř skládá z logických celků, které se skládají z jednodušších obvodů, které se skládají z elementárních hradel, které se skládají z tranzistorů… Vážně!
+
+Pojďme tedy nejprve na ta hradla a logické funkce.

@@ -1,0 +1,13 @@
+# 3 Hlava, koleno, zem… {#3-hlava-koleno-zem}
+
+... zapikanej jsem, říkali jsme jako malí při rozpočítávání. Když jsem přemýšlel nad tím, jak vysvětlit základní pojmy, bez kterých se neobejdeme, totiž pojem napětí a proudu, tak mě napadlo právě toto říkadlo.
+
+Pohodlně se usaďte, na chvíli si odpočineme od sestavování konstrukcí, beztak to byla příliš velká nálož novinek. Teď zapojíme místo diody vlastní hlavu...
+
+Schválně, jak vysoko nad zemí je vaše hlava, když stojíte? U sebe to vím celkem přesně, jsou to dva metry. Koleno 60 centimetrů. Zem je od země přesně nula centimetrů – to jen pro pořádek. Když vezmu vajíčko a upustím ho na koberec – ne, prosím, tento pokus nemusíte nutně dělat, jen si to představte – z výšky svého kolene, tak vydrží. Když ho pustím z výšky svojí hlavy na tentýž koberec, rozkřápne se. Jak to, že totéž vejce puštěné z různých výšek dopadne pokaždé jinak?
+
+Odpověď je: „To je přeci jasné!“ No dobře, jasné to je, ale nějaké vysvětlení by tu být mohlo. Je zde, a jmenuje se „potenciální energie“ (též „polohová“). V našem případě je to potenciální energie v gravitačním poli Země. Tato energie je tím vyšší, čím výš nad zemí předmět, v našem případě vejce, je (samozřejmě s omezeními, protože v dostatečně velké vzdálenosti už bude gravitační síla, která to vajíčko přitahuje, tak malá, že nebude mít na vejce podstatný vliv). Dokud držím vejce v ruce, má potenciální energii. Jakmile ho upustím, začne se tato potenciální energie přeměňovat v energii kinetickou, pohybovou, a vajíčko bude padat k zemi. Čím níž vejce bude, tím vyšší bude jeho kinetická energie – a podle zákona o zachování energie bude součet kinetické a potenciální energie konstantní. Jakmile vejce doputuje k zemi, bude jeho potenciální energie nulová a kinetická bude rovna té původní potenciální. A tato kinetická energie se v okamžiku dopadu na zem opět přemění v jinou energii a vykoná práci (v našem případě destrukci skořápky).
+
+Výška nad zemí tedy určuje potenciální energii – pozice „hlava“ má vyšší než pozice „koleno“, a pozice „koleno“ má vyšší než pozice „zem“. Pozice „zem“ má potenciální energii nulovou. Když vejce leží na zemi, nemá kam padat a nemá tedy nic, co by se proměnilo v kinetickou energii. Tohle všechno je empiricky pochopitelné, úplně jasné a každý si to dokážeme představit.
+
+Proč v knížce o elektřině vysvětluju padání vajec na zem, navíc tak zdlouhavě? Protože nám to poslouží jako dobrá analogie s elektřinou. Všimněte si, že potenciální energie se neměří „sama od sebe“, vždycky se měří „mezi dvěma body“. Třeba mezi zemí a předmětem nad ní. Stejně tak se neříká, že „Sněžka je sto kilometrů daleko“ – je to úplně prázdné sdělení, pokud neřekneme odkud je to těch sto kilometrů.
