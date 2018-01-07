@@ -1,0 +1,3 @@
+{
+    "plugins": ["theme-vuejs-2", "collapsible-chapters", "expand-active-chapter"]
+}
