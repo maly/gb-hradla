@@ -2,7 +2,7 @@
 
 Úplně nejjednodušší zapojení je taková obyčejná svítilna. Třeba právě s LEDkama. Jak funguje? No, je to jednoduché: máte zdroj energie, třeba baterii, a LEDku, a mezi tím rezistor. Nějak takhle:
 
-![093-1.png](images/000075.png)
+![093-1.png](../images/000075.png)
 
 Zkuste si to zapojit. Prozradím vám předem, že když na místě baterie použijete monočlánek s napětím 1,5 voltu, tak vám to svítit nebude. Musíte použít alespoň dva za sebou, ještě lépe plochou baterii (v níž jsou tři za sebou), nebo například Arduino, z něhož můžete odebírat + 5 voltů.
 
@@ -12,7 +12,7 @@ Jenže co když chcete svítit víc, ještě víc? Jak na to? No, co třeba zapo
 
 Jak? No, v zásadě máte čtyři možnosti, jak místo jedné LED zapojit dvě:
 
-![093-2.png](images/000088.png)
+![093-2.png](../images/000088.png)
 
 Možnosti 1 a 3 dávají smysl. Vyzkoušejte si je, při které z nich budou LED svítit nejvíc. Možnost 2 je nefunkční, takhle vám LED svítit nebudou. Možnost 4 je zajímavá v tom, že takhle vám bude svítit vždy alespoň jedna LED, i když přepólujete zdroj, přehodíte kladný a záporný pól, ale většího jasu nedosáhnete…
 

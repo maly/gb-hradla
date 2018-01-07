@@ -16,21 +16,21 @@ V EduShieldu je displej řízen pomocí ATtiny2313\. V něm je firmware, napsan�
 
 7. Switch J6 nad displejem rozpojte, viz obrázek (to je to modré nahoře pod piny 12, 11, označené RTC PWR):
 
-![499-1.jpeg](images/00330.jpeg)
+![499-1.jpeg](../images/00330.jpeg)
 
 8. Propojte pomocí šesti propojovacích vodičů EduShield (šestivývodový konektor označený J3 ISP) s Arduinem (+ 5 V, GND, datové piny 10, 11, 12 a 13). Správné propojení je naznačeno na následujícím obrázku:
 
-![500-1.jpeg](images/00025.jpeg)
+![500-1.jpeg](../images/00025.jpeg)
 
 9. Propojené komponenty by měly vypadat zhruba takto:
 
-![500-2.jpeg](images/00355.jpeg)
+![500-2.jpeg](../images/00355.jpeg)
 
 10. Spusťte Arduino IDE a otevřete sketch Tiny2313 ze složky _firmware.
 
 11. Vyberte jako desku „ATtiny2313 @ 1 MHz“ a jako programátor „Arduino as ISP“, viz screenshot:
 
-![501-1.png](images/000033.png)
+![501-1.png](../images/000033.png)
 
 12. Přeložte a spusťte nahrávání.
 

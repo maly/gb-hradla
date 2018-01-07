@@ -2,13 +2,13 @@
 
 A teď do toho přispějete i vy. Dvojice modulů vysílač-přijímač na 433 MHz za pár korun vypadá takto:
 
-![350-1.jpeg](images/00027.jpeg)
+![350-1.jpeg](../images/00027.jpeg)
 
 Vlevo přijímač (4 piny), vpravo vysílač (3 piny). Ještě k nim doporučím připojit anténu – bez ní bude spojení velmi špatné a dosah jen několik centimetrů. Staré radioamatérské přísloví říká, že dobrá anténa je lepší než sebesilnější vysílač – a je to tak.
 
 Anténu si můžete buď vyrobit z kusu drátu (měla by mít délku 17,3 centimetrů, nebo 34,6 centimetrů – čtvrtina, respektive polovina vlnové délky), anebo ji můžete koupit. Popřípadě rovnou shánějte moduly i s anténou.
 
-![350-2.jpeg](images/00189.jpeg)
+![350-2.jpeg](../images/00189.jpeg)
 
 Oba moduly mají klasické napájecí piny GND a Vcc, a jeden datový (u přijímače jsou to ty dva prostřední piny – jsou uvnitř spojené, takže jako by to byl jeden).
 

@@ -10,11 +10,11 @@ Vcc a GND je jasné, to je napájení. SCL a SDA napovídá, že se bude zaříz
 
 V datasheetu si všimněte, že napájecí napětí je 3,3 voltů. To by mohl být problém – jenže naštěstí moduly s BMP180 obsahují stabilizátor napětí – je to ta miniaturní černá součástka se třemi vývody:
 
-![344-1.jpeg](images/00398.jpeg)
+![344-1.jpeg](../images/00398.jpeg)
 
 Letmým googlením najdete i schéma takového modulu:
 
-![344-2.jpeg](images/00383.jpeg)
+![344-2.jpeg](../images/00383.jpeg)
 
 Vidíte, že je tam stabilizátor, který sníží napájecí napětí 5 V z Arduina na požadované 3,3 V. Pak vidíte, že jsou použité i pull-up rezistory na 3,3 V pro sběrnici I2C. Budeme ji moci připojit k Arduinu, když víme, že to používá 5 V?
 
@@ -76,7 +76,7 @@ U pevné meteostanice bude lepší nastavit výšku odečtem z mapy natvrdo do k
 
 Druhý polotovar, DHT11 nebo DHT22, je nejjednodušší připojit podle standardního zapojení a využít hotovou knihovnu. Když se podíváte do datasheetů, zjistíte, že komunikace s těmito senzory není úplně jednoduchá, a pokud se vám zrovna nechce znovuvynalézat druhé kolo (a komu by se chtělo, když může ušetřený čas věnovat něčemu zajímavějšímu, než je opakování cizích chyb?), použijte ji.
 
-![346-1.png](images/000214.png)
+![346-1.png](../images/000214.png)
 
 Možné zapojení celé meteostanice ukazuje obrázek. Obvod DHT je připojen podle příkladu z knihovny DHT Simple na pin 2, snímač BMP180 je zapojen na sběrnici I2C. U DHT11 je zapojený i pull-up rezistor 10k.
 

@@ -6,7 +6,7 @@ Už jsem tu říkal, že nesmíme jen tak spojit výstupy hradel TTL „nakrátk
 
 Jenže! Občas potřebujeme, aby se na jedno společné vedení připojovalo víc funkčních jednotek. Třeba na datové sběrnici procesoru je připojená paměť RAM, paměť ROM a různé periferie, a podle adresy se vybírá konkrétní obvod, s nímž se komunikuje. Až dosud dobrý, ale teď mi řekněte: Co mají dělat ostatní obvody, připojené tamtéž, se svými výstupy? Nemůžou být ani v log. 1, ani v log. 0, tím by totiž rušily přenos dat.
 
-![169-1.png](images/000170.png)
+![169-1.png](../images/000170.png)
 
 Co mají udělat? Jedna z možností je použít obří multiplexor, a připojovat vždy pouze jediné zařízení. Jenže když si představíte, jak by to vypadalo u osmibitového počítače: máme třeba pět zařízení (RAM, ROM, časovač, paralelní port, sériový port), každé po osmi bitech, to je 40 bitů, dalších 8 bitů výstup, 3 bity řídicí – jen ten multiplexor by měl pouzdro větší než celý procesor!
 
@@ -16,7 +16,7 @@ Ne každý obvod má třístavové výstupy. Hradla, o nichž jsme se až dosud 
 
 Díky tomu může být na jedné datové sběrnici připojena paměť RAM i ROM i periferie. Všechny tyto obvody mají totiž výstupy ve stavu Z, a procesor si určí, ze kterého chce číst. Tomu pak povolí přístup na sběrnici tím, že mu pošle signál OE.
 
-![170-1.png](images/000416.png)
+![170-1.png](../images/000416.png)
 
 U jednoduchých obvodů máte k dispozici buď budiče s třístavovým výstupem (a), popřípadě takové, kde je řídicí vstup negovaný (b), anebo invertory s třístavovým výstupem (c).
 
@@ -28,7 +28,7 @@ Na takto spojené výstupy s otevřeným kolektorem se připojuje přes dostate�
 
 Řekněme, že máme tři stanoviště, kde může vzniknout poplach, a chceme, aby vždy všechna stanoviště viděla, že na některém vznikl poplach. Máme opět spoustu možností, ale když zvolíme „otevřený kolektor“, vystačíme si s jediným signálovým vodičem.
 
-![171-1.png](images/000173.png)
+![171-1.png](../images/000173.png)
 
 Za normálního stavu, tedy v klidu, je signálový vodič připojen k žárovkám na jednotlivých stanovištích, a zároveň přes rezistor k napájecímu napětí. Je na něm tedy logická 1\. Jakmile se na některém ze stanovišť přepne přepínač k zemi, tedy k logické 0, uzavře se obvod tak, že poteče proud přes žárovky na stanovištích přes tento přepínač k zemi. Žárovky se rozsvítí, a o to nám šlo!
 

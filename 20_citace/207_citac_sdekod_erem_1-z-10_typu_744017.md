@@ -4,7 +4,7 @@ Už jsem tu zmínil, že kromě TTL řady 74xx existovala i řada CMOS 40xx, v n
 
 Příkladem takového obvodu může být 4075, což je trojice třívstupových hradel OR, a její TTL ekvivalent 744075 (74HCT4075). Zajímavý obvod je 4017, v TTL verzi jako 744017 – např. 74HCT4017\. Tento obvod kombinuje pětibitový Johnsonův čítač (tedy s deseti hodnotami) a dekodér 1-z-10, takže má deset výstupů, pro každou hodnotu jeden. Což se může hodit v nejrůznějších situacích.
 
-![264-1.png](images/000331.png)
+![264-1.png](../images/000331.png)
 
 Obvod má nulovací vstup R, hodinový vstup CLK a povolovací vstup /CE – pokud je neaktivní (=1), čítač ignoruje vstup CLK, pokud je aktivní (=0), vstup CLK funguje. Z výstupů Q0 až Q9 je aktivní právě jeden, podle aktuálního stavu. Negovaný výstup /CO (Carry Out) je neaktivní (=1) pro hodnoty 0 až 4, pro hodnoty 5-9 je aktivní (=0).
 

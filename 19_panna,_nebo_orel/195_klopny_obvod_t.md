@@ -2,11 +2,11 @@
 
 Když u předchozího obvodu do cesty hodinovému pulsu zapojíme hradlo AND, získáme tak klopný obvod typu T (Toggle).
 
-![239-1.png](images/000069.png)
+![239-1.png](../images/000069.png)
 
 Pravdivostní tabulka takového obvodu je prostá: Pokud je T = 0, zůstává klopný obvod stále ve stejném stavu. Pokud je T = 1, tak se s každou náběžnou hranou hodin přepne.
 
-![239-2.png](images/000013.png)
+![239-2.png](../images/000013.png)
 
 | T | Qn | Qn+1 | Funkce při náběžné hraně Clk |
 | --- | --- | --- | --- |

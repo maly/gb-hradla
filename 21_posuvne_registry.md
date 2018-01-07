@@ -2,7 +2,7 @@
 
 Vraťme se teď myšlenkami o kousek zpátky. Johnsonův čítač… Klopné obvody typu D, zapojené za sebou… máte? Co to trochu zobecnit?
 
-![269-1.png](images/000338.png)
+![269-1.png](../images/000338.png)
 
 Představte si takovéhle zapojení. S každým pulsem hodin se do levého klopného obvodu zapíše informace ze vstupu Data In, do druhého obvodu se zapíše předchozí informace z prvního, do třetího se zapíše informace z druhého… No a nakonec po čtyřech pulsech hodin se zapíšou čtyři bity hezky postupně do všech klopných obvodů. Nějak takhle – představte si, že po každém řádku přijde puls na vstup Clock:
 
@@ -22,7 +22,7 @@ Takovému uspořádání se říká posuvný registr – důvod je asi jasný: k
 
 Samozřejmě existují i opačné registry PISO. Mají několik datových vstupů (většinou 4 nebo 8), pak signál, kterým se zapíše tato informace do vnitřních klopných obvodů, a pak hodiny, které posílají jednotlivé bity na výstup Q. Jeho zapojení je ale o něco složitější.
 
-![270-1.jpeg](images/00371.jpeg)
+![270-1.jpeg](../images/00371.jpeg)
 
 Kombinací obého dostáváme hybridní registry SISO-PISO-SIPO, tedy takové, které mohou mít vstupy i výstupy obojího typu. Častá kombinace je SISO-SIPO, tedy registry, které mají sériový vstup i výstup, a k tomu paralelní výstup. Lze je totiž snadno zapojit za sebe a poskládat tak třeba dvacetibitové převodníky.
 

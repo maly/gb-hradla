@@ -8,7 +8,7 @@ Pokud si nepamatujete, nalistujte si první kapitolu, zapojování blikače _–
 
 Tak. Obvod bychom měli. Co s ním? Jak zjistíte, co máte kam připojit? No, schválně, kdo si to pamatuje? Správně, podíváte se do datasheetu. Ale protože jsem na vás hodný, tak vám sem ten nejdůležitější obrázek zkopíruju. To je on:
 
-![142-1.png](images/000368.png)
+![142-1.png](../images/000368.png)
 
 Vidíte, jak je uspořádaný obvod uvnitř: jsou tam čtyři hradla NAND, zapojená na vývody 1-2-3, 4-5-6, 13-12-11 a 10-9-8\. Vývod 7, označený GND, je zem (Ground), tedy pro nás záporný pól napájecího zdroje, vývod 14 je Vcc, neboli napájecí napětí.
 

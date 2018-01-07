@@ -6,17 +6,17 @@ Ale to jen na okraj.
 
 Od počátku číslicové techniky se ukázala potřeba nějak přenášet vícebitová data. Představme si osmibitový mikroprocesor – musí nějak komunikovat s pamětí a dalšími obvody. Nejjednodušší je přenášet osmibitová data po osmici vodičů. A přesně to se dělalo.
 
-![271-1.jpeg](images/00341.jpeg)
+![271-1.jpeg](../images/00341.jpeg)
 
 Datové vodiče se jmenovaly D0 až D7, a všechno, co mělo nějak přebírat data z procesoru, se posílalo po těchto osmi vodičích.
 
 Dohromady se jim říkalo (a říká stále ještě) datová sběrnice. Proč sběrnice? Protože se k těmto vodičům připojovalo více zařízení (paměť RAM, paměť ROM, vstupně-výstupní obvody atd.) najednou, a ty samotné vodiče jako by _sbíraly_ data z různých zařízení. Samozřejmě – aby se obvody nepraly o to, kdo bude na datové vodiče posílat informace (vzpomeňte si, co jsme si říkali o připojování výstupů logických obvodů k sobě), tak jsou všechny vybavené třístavovým výstupem, tedy takovým, který umožňuje odpojení vývodu, a procesor si vždy řekne, které zařízení má komunikovat.
 
-![272-1.png](images/000386.png)
+![272-1.png](../images/000386.png)
 
 Abychom se z toho ve schématech nezbláznili, jak taháme osm drátů kolem dokola, tak namalujeme jednu tlustou čáru, řekneme, že pro nás představuje třeba osm vodičů D0-D7, a pak jen malujeme součástky a říkáme, jak se mají napojit:
 
-![273-1.png](images/000348.png)
+![273-1.png](../images/000348.png)
 
 Protože po takovéhle sběrnici jde těch osm bitů vedle sebe osmi vodiči, tak říkáme, že se jedná o paralelní přenos dat.
 

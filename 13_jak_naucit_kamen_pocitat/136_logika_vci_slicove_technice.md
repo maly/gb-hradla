@@ -19,7 +19,7 @@ Ano, ve světě číslicové techniky jsme si rozšířili základní typy logic
 
 Každá logická funkce (hradlo) má i vlastní schematickou značku. Ty jsou shrnuty v obrázku (včetně hradla XOR, k němuž se ještě dostaneme). Schematické značky, co používám, jsou podle normy ANSI. V ČSSR se koncem osmdesátých let začala prosazovat evropská norma IEC, kde všechny vypadají jako obdélníčky se symbolem; setkáte se s oběma typy schematických značek. Jedno mají společné: Negovaný vstup nebo výstup se značí kroužkem:
 
-![140-1.png](images/000342.png)![141-1.png](images/000357.png)
+![140-1.png](../images/000342.png)![141-1.png](images/000357.png)
 
 Ta první funkce, označená jako „BUF“ (z anglického Buffer, česky se pro tuto součástku používá slovo „budič“), je vlastně něco-jako-invertor, který neinvertuje. Když je na vstupu 0, na výstupu je taky 0\. Když je na vstupu 1, na výstupu je taky 1\. Možná si říkáte, že taková součástka je úplně na... zbytečná, ale přeci jen se někdy hodí: v případě, že potřebujeme signál přivést k více dalším zařízením, hodí se posilovač – budič. Takové součástky většinou dokáží spolehlivě dodat dostatek proudu k tomu, aby signál mohl být přiveden do několika různých obvodů najednou. Pro klasické obvody TTL platí, že k jejich výstupu můžete připojit maximálně 10 vstupů dalších obvodů TTL. Pro CMOS je tento počet mnohem nižší – a tam se hodí právě budič.
 

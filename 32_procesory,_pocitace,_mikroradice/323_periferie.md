@@ -8,4 +8,4 @@ Technicky jsou tyto periferie připojené přes oddělovací obvody, které se p
 
 V roli takového nejjednoduššího obvodu si můžeme představit třeba osmici klopných obvodů typu D, například 74HCT377\. Tento obvod obsahuje osm registrů D se společným hodinovým vstupem CP a společným povolovacím vstupem /E. Pokud je /E neaktivní (=1), zůstává obvod stále ve stejném stavu a na výstupech udržuje předchozí zapsanou hodnotu. Pokud je /E aktivní (=0), tak náběžná hrana na hodinovém vstupu CP zapíše data ze vstupů D0-D7 do vnitřních klopných registrů. Odtamtud se pak objeví na výstupech.
 
-![359-1.png](images/000011.png)
+![359-1.png](../images/000011.png)

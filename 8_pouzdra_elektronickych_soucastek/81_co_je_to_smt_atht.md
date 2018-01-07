@@ -2,7 +2,7 @@
 
 Kdysi dávno se obvody montovaly ze součástek s drátovými vývody, které se k sobě letovaly. Později přišly takzvané plošné spoje – to je deska, na níž je nanesena vodivá vrstva, nejčastěji mědi, a pomocí ní jsou vytvořené vodivé spoje dle potřeby. Pro každou součástku bylo vyhrazené místo, kam byla připájena, a nebylo potřeba propojovat vývody ručně s rizikem toho, že „se na něco zapomene“. Později, s rozvojem integrace, přišly vícevrstvé plošné spoje. Pak se ukázalo, že vrtání děr je drahé, proto se přešlo k součástkám v pouzdrech, které jsou přizpůsobené pro montáž na povrchu, tedy není nutné prostrkovat přívody vrtanými otvory. Této technologii se říká Surface Mounted Technology – SMT, tedy „technologie povrchové montáže“. Pouzdra, která jsou vhodná pro tuto montáž, se označují SMD (Surface Mounting Design). Starší způsob, s otvory a vývody na prostrčení, dostal název THT – Through Hole Technology.
 
-![101-1.jpeg](images/00174.jpeg)
+![101-1.jpeg](../images/00174.jpeg)
 
 Pro začátečníky je vhodnější technologie THT. Má to hned několik důvodů. Pouzdra pro THT mají dlouhé vývody s většími roztečemi (nejčastěji v rastru 2,54 mm = 0,1 palce) a dobře se s nimi pracuje. Dají se použít v nepájivých polích, dají se i dobře pájet v ruce… Součástky v SMD pouzdrech mají vývody krátké, někdy ani vývody nemají a mají jen pájecí plošky, a tak je musíte (skoro) vždy pájet. Navíc mají menší mezery mezi vývody, a tak jejich ruční pájení vyžaduje lepší vybavení a hlavně cvik.
 

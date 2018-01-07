@@ -8,7 +8,7 @@ Přepněte multimetr na rozsah 20 mA. Vezměte rezistor s odporem 10 000 ohmů (
 
 Zkuste si pokus opakovat s jiným rezistorem, u kterého si změříte jeho odpor. Naměřené údaje si zapište do tabulky:
 
-![068-1.jpeg](images/00249.jpeg)
+![068-1.jpeg](../images/00249.jpeg)
 
 POZOR!!! Nikdy nepřipojujte multimetr v režimu „měření proudu“ (tedy rozsahy 2 mA, 20 mA, 200 mA a podobně) přímo na napájecí zdroj! Vždy jen přes rezistor!
 

@@ -2,17 +2,17 @@
 
 Pamatujete se na staré televize, které měly přepínání kanálů pomocí senzorů? Ne, teď nemyslím senzor jako že snímač, myslím senzor jako dotykové tlačítko. Vypadalo nějak takto:
 
-![o125.jpeg](images/00206.jpeg)
+![o125.jpeg](../images/00206.jpeg)
 
 Senzor v tehdejším pojetí byly dva plíšky, oddělené nevodivou mezerou. Když jste se těchto dvou plíšků dotknuli prstem, spojili jste je (kůže je trochu vodivá), a řídicí elektronika to vyhodnotila jako stisknutí tlačítka.
 
-![o126.jpeg](images/00164.jpeg)
+![o126.jpeg](../images/00164.jpeg)
 
 Pojďme si to zkusit zapojit. Žádné složitosti, jen senzor, klidně nasimulovaný dvěma dráty vedle sebe, a dotykem rozsvítíte LED.
 
 Co třeba takhle?
 
-![91-2.png](images/000294.png)
+![91-2.png](../images/000294.png)
 
 Ty dvě kolečka vlevo symbolizují dvě dotykové plošky, které budeme prstem spojovat. Vzhledem k tomu, že kůže má poměrně velký odpor, je potřeba, aby byly co nejblíž u sebe, třeba milimetr, dva…
 
@@ -28,13 +28,13 @@ Nebudu vás napínat – právě jsem jinými slovy zopakoval to, co jste četli
 
 Velký proud, to bude to, co poteče LEDkou, malý proud bude to, co teče senzorem. Co třeba takhle?
 
-![92-1.png](images/000350.png)
+![92-1.png](../images/000350.png)
 
 „Velký proud“ teče – pokud tedy teče! – z kladného pólu baterie přes rezistor a LED do kolektoru u tranzistoru, skrz tranzistor emitorem ven a do záporného pólu baterie. „Malý proud“ teče z kladného pólu téže baterie do senzoru, tam protéká vaším prstem, zpátky do druhého pólu senzoru, odtamtud do báze tranzistoru, a přes emitor ven a do baterie. Což samozřejmě platí pro situaci, kdy je prst přiložen. Když prst přiložen není, tak žádný malý proud neteče, a tím pádem neteče ani velký proud.
 
 Jako tranzistor použijte třeba BC548C, ten má hodně velký proudový zesilovací činitel. Co je „hodně velký“? No, podle datasheetu je to nějakých 500 (čeho? Jablek? Voltů? Ohmů? Ničeho; zesilovací činitel je bezrozměrný, nemá jednotku) při proudu kolektorem 2 mA. Na takový proud stačí tedy 500 × menší proud bází – tedy 4 µA. To by mohlo fungovat, i když svit LED při dvou mA nebude nijak přehnaný…
 
-![92-2.png](images/000397.png)
+![92-2.png](../images/000397.png)
 
 ### 7.4.1 Více světla! {#7-4-1-v-ce-sv-tla}
 
@@ -42,4 +42,4 @@ Co když i ten „velký proud“ je pro nás stále malý? Co kdybychom chtěli
 
 Prozradím vám trik zvaný _Darlingtonovo zapojení_. V něm použijeme dva tranzistory. První udělá z malého proudu střední, druhý ze středního velký.
 
-![93-1.png](images/000022.png)
+![93-1.png](../images/000022.png)

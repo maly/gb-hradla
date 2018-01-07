@@ -2,7 +2,7 @@
 
 Jde! Co by nešlo. Představte si takový rezistorový dělič, třeba ze čtyř rezistorů se stejnou hodnotou, k němuž jsou připojená tlačítka do společného bodu, který je přes pátý rezistor stejné hodnoty připojený k napájecímu napětí. Nějak takto:
 
-![388-1.png](images/000388.png)
+![388-1.png](../images/000388.png)
 
 Za normálního stavu, pokud není žádné tlačítko stisknuté, je na výstupu napájecí napětí 5 V přes rezistor R5.
 
@@ -16,7 +16,7 @@ Stisk S2 znamená dělení v poměru R:3R, tedy cca 3,75 V. Tlačítko S1 pak na
 
 No, a když výstup připojíte k analogovému vstupu Arduina, tak pomocí analogRead můžete číst přímo hodnoty stisknutých tlačítek. Dokonce můžete vynechat i R5 a použít interní pull-up – pinMode(A0, INPUT_PULLUP).
 
-![389-1.png](images/000240.png)
+![389-1.png](../images/000240.png)
 
 Takže nakonec obsluhujete pět tlačítek pouhým jedním vstupem! Samozřejmě, takovéhle řešení má svoje limity: analogový převodník není nekonečně přesný, rezistory také nebývají přesné, navíc se „rozlaďují“ teplem, takže pět tlačítek je takové rozumné maximum.
 

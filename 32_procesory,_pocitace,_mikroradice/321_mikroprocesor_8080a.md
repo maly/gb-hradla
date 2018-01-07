@@ -2,7 +2,7 @@
 
 Původní 8080 byl záhy nahrazen vylepšeným typem 8080A, který byl rychlejší. Jeho vnitřní uspořádání ukazuje následující schéma:
 
-![355-1.png](images/000178.png)
+![355-1.png](../images/000178.png)
 
 CC-BY-SA, autor Appaloosa
 

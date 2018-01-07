@@ -12,7 +12,7 @@ Máme! Nejlépe je najdete v různých přehledech rodiny 74xx, ale protože jso
 
 Vývody základní verze
 
-![162-1.jpeg](images/00166.jpeg)
+![162-1.jpeg](../images/00166.jpeg)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -20,7 +20,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![162-2.jpeg](images/00143.jpeg)
+![162-2.jpeg](../images/00143.jpeg)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -28,7 +28,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![162-3.png](images/000246.png)
+![162-3.png](../images/000246.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![163-1.jpeg](images/00147.jpeg)
+![163-1.jpeg](../images/00147.jpeg)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -44,7 +44,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![163-2.png](images/000345.png)
+![163-2.png](../images/000345.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -52,7 +52,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![163-3.png](images/000152.png)
+![163-3.png](../images/000152.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -60,7 +60,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![163-4.png](images/000020.png)
+![163-4.png](../images/000020.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -68,7 +68,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![164-1.png](images/000156.png)
+![164-1.png](../images/000156.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -76,7 +76,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![164-2.png](images/000017.png)
+![164-2.png](../images/000017.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![164-3.png](images/000160.png)
+![164-3.png](../images/000160.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -92,7 +92,7 @@ Vývody základní verze
 
 Vývody základní verze
 
-![164-4.png](images/000224.png)
+![164-4.png](../images/000224.png)
 
 | Funkce | Varianta | Základní | Schmitt | OC |
 | --- | --- | --- | --- | --- |
@@ -100,6 +100,6 @@ Vývody základní verze
 
 Vývody základní verze
 
-![165-1.png](images/000165.png)
+![165-1.png](../images/000165.png)
 
 V tabulce jsou kromě základních typů uvedené i typy se Schmittovým obvodem na vstupu. O něm jsme si už říkali – slouží k ochraně obvodů před signály, které nejsou dostatečně strmé. Další sloupec ukazuje obvody s otevřeným kolektorem na výstupu. V tuto chvíli to nechme stranou, později v této kapitole si o nich povíme víc.

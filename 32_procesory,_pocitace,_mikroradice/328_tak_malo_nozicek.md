@@ -8,4 +8,4 @@ Příkladem mohou být piny 27 a 28 u ATmega328\. Na Arduinu jsou připojeny jak
 
 Obyčejné datové piny mohou pracovat v několika režimech – výstup, vstup, a protože spousta obvodů pracuje s otevřeným kolektorem, kdy je potřeba zapojit pull-up, tak bývá tento rezistor zapojený už přímo v jednočipu a lze ho volitelně zapnout (input pullup).
 
-![366-1.png](images/000167.png)
+![366-1.png](../images/000167.png)

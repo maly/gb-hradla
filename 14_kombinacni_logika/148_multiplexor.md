@@ -28,7 +28,7 @@ Můžeme navrhnout různá zapojení, ale nejjednodušší získáme, když si u
 
 A jak řekli, tak udělali…
 
-![167-1.png](images/000315.png)
+![167-1.png](../images/000315.png)
 
 [eknh.cz/muxao](https://eknh.cz/muxao)
 

@@ -8,7 +8,7 @@ RS-232 je starý standard sériového přenosu dat, používaný už v 60\. lete
 
 Principiálně šlo o obousměrnou komunikaci po dvou vodičích. Na každém zařízení byl vývod RxD (pro příjem, receive) a TxD (pro vysílání dat, transmit). Výstup TxD jednoho zařízení se propojuje se vstupem RxD druhého zařízení, a opačně. Třetím nutným vodičem byla, jako všude, zem (GND).
 
-![289-1.png](images/000372.png)
+![289-1.png](../images/000372.png)
 
 Kromě těchto datových vodičů se používaly i řídicí vodiče, pomocí nichž signalizovalo jedno zařízení druhému, že požaduje data, nebo že je připraveno vysílat data. Šlo o signály RTS (Request to Send – počítač oznamuje, že bude posílat data), CTS (Clear to Send – zařízení potvrzuje, že počítač může poslat data), DSR (Data Set Ready – zařízení je připraveno), DTR (Data Terminal Ready – počítač je připraven), RI (Ring Indicator) a DCD (Data Carrier Detected). Poslední dva se používaly především u telefonních modemů, kde signalizovaly příchozí spojení a navázání komunikace. Dnes se tyto signály používají převážně u některých zařízení v průmyslu; většina komunikace se odehrává jen po datových vodičích. Někdy jsou řídicí signály používané k úplně jiným účelům (například u Arduina je signál DTR použit ke vzdálenému RESETu).
 
@@ -30,7 +30,7 @@ Ovšem pozor, neznamená to, že se za sekundu přenese 9600/8 = 1200 bytů! Nez
 
 Dnes se v praxi používají rychlosti od 2400 výše. Nejčastěji to bývá 9600 u pomalých zařízení, kde nedává smysl vysoká přenosová rychlost. U rychlejších se setkáme nejčastěji s rychlostmi 19200 a 115200.
 
-![291-1.png](images/000114.png)
+![291-1.png](../images/000114.png)
 
 V mezititulku jsem zmínil i zkratku UART. Je to zkratka z Universal Asynchronous Receiver / Transmitter, což bylo označení součástek, které v počítačových systémech měly na starosti sériovou komunikaci po rozhraní RS-232\. Dokázaly poslat a přijmout data, a procesor je mohl nakonfigurovat podle potřeby na různou délku dat, na různou paritu i na různou rychlost. Existovaly i součástky USART (Universal Synchronous / Asynchronous Receiver / Transmitter), které dokázaly používat i synchronní přenos, tj. s hodinovým signálem. Nám dodneška zůstalo toto označení, které se významově rozšířilo a označuje obecně výše popsaný způsob komunikace.
 

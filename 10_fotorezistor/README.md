@@ -2,7 +2,7 @@
 
 Už jsme si ukázali svítící diody, tedy součástky, které mění elektrický proud na světlo. Nastal čas podívat se na součástku s opačnou funkcí, tedy takovou, která reaguje na světlo. Už vás asi nepřekvapí, že takových je celá řada. Já začnu tou nejjednodušší, fotorezistorem.
 
-![116-1.jpeg](images/00222.jpeg)
+![116-1.jpeg](../images/00222.jpeg)
 
 Jak název napovídá, půjde o nějaké spojení světla a rezistoru. Fotorezistor funguje velmi podobně jako rezistor, jen s tím rozdílem, že se jeho odpor mění podle toho, kolik světla na něj dopadá. Čím víc světla, tím nižší odpor.
 
@@ -12,6 +12,6 @@ U fotorezistorů se udává nejčastěji odpor při osvětlení 10 luxů a teplo
 
 Pojďte si to zkusit, jestli to funguje tak, jak si představujete. Co když zapojíte takový fotorezistor místo obyčejného rezistoru do série s LED?
 
-![117-1.png](images/000236.png)
+![117-1.png](../images/000236.png)
 
 LED bude svítit, ovšem když zastíníte fotorezistor prstem, její jas se sníží!

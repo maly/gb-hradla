@@ -2,7 +2,7 @@
 
 Pojďme tu vaši meteostanici posunout o další úroveň výš. Udělejme z ní meteostanici, připojenou do sítě Sigfox.
 
-![412-1.jpeg](images/00195.jpeg)
+![412-1.jpeg](../images/00195.jpeg)
 
 Můžete k tomu zvolit hned několik postupů. Můžete použít třeba desku SmartEverything ([www.smarteverything.it/](https://www.smarteverything.it/)), která je vybavená snímačem teploty, tlaku, vlhkosti, osvětlení i modulem pro Sigfox. (Kromě toho má třeba i akcelerometry, gyroskop, Bluetooth nebo NFC, ale to nebudeme potřebovat).
 
@@ -24,7 +24,7 @@ Po přenesení naměřených hodnot nezapomeňte procesor i desku uspat pomocí 
 
 Další možnost, místo poměrně drahé desky SmartEverything, je použít třeba devkit od Thinxtra:
 
-![413-1.jpeg](images/00057.jpeg)
+![413-1.jpeg](../images/00057.jpeg)
 
 Tento devkit můžete připojit k různým kitům, nejen k Arduinu, a dokonce i přímo k PC přes USB. Pokud ho připojíte ke své meteostanici na Arduinu (pamatujete? DHT22 a BMP180), můžete snadno místo Serial.println() posílat data via Sigfox na server k dalšímu zpracování. Ale nezapomeňte opět na dlouhý a vydatný spánek, alespoň těch 10 minut.
 

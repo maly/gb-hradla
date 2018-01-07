@@ -2,7 +2,7 @@
 
 Moduly s tímto obvodem se brzy objevily v několika variantách. První byl modul, dnes označovaný jako ESP-01, připojovaný přes osm pinů:
 
-![396-1.png](images/000401.png)
+![396-1.png](../images/000401.png)
 
 ESP-01 byl nejjednodušší, nejlevnější a používal se především jako periferie – připojuje se přes sériové rozhraní (většinou rychlostí 115200 Bd) a veškerá komunikace s internetem se odehrává pomocí speciálních příkazů („AT příkazy“).
 

@@ -8,7 +8,7 @@ Některé čítače umí čítat nahoru (0 – 1 – 2 – 3 – 4 …) i dolů 
 
 Kombinací všech zmíněných funkcí oplývají čítače 74192 a 74193\. Opět jde o čtyřbitové čítače – typ 193 je binární, typ 192 desítkový.
 
-![258-1.png](images/000245.png)
+![258-1.png](../images/000245.png)
 
 Obvod má dva hodinové vstupy, CountUp a CountDown. První funguje jak jsme zvyklí a vyvolává čítání vzhůru. CountDown vyvolává čítání dolů. Čítače mají čtyři výstupy: QA, QB, QC, QD. Navíc mají i výstupy „/Carry“ a „/Borrow“ – /Carry označuje, že čítač příštím pulsem přejde ze stavu 15 do stavu 0 (respektive ze stavu 10 do stavu 0 u desítkového). Signál je negovaný, takže tuto skutečnost oznámí, logicky, nulou. Podobnou funkci má signál /Borrow – oznamuje, že čítač je ve stavu 0, a při dalším pulsu CountDown přejde na nejvyšší hodnotu (15, resp. 10). Tyto výstupy se používají k řetězení čítačů za sebe, pokud chcete získat vícebitový čítač.
 
@@ -18,7 +18,7 @@ Poslední pětice vstupů jsou vstupy A, B, C, D a /LOAD. Signál /LOAD říká,
 
 Vím, že někdy obrázek vydá i za 273 slov, tak se podívejme, jak funkci obvodu 74193 popisuje graficky datasheet:
 
-![259-1.png](images/000320.png)
+![259-1.png](../images/000320.png)
 
 No dobře, uznávám, tento obrázek není právě krystalickou ukázkou, ten v hlavě začátečníka vydá sice za 273 slov, ale většina z nich je „cože?“ Ale protože takových obrázků jsou plné datasheety, pojďme tomu dát trochu práce.
 

@@ -6,11 +6,11 @@ Víme, že si klopný obvod D pamatuje poslední zapsanou hodnotu a drží ji na
 
 Představme si, že takových obvodů zapojíme šestnáct do matice 4 × 4\. Nějak takhle:
 
-![296-1.png](images/000185.png)
+![296-1.png](../images/000185.png)
 
 Nahoře jsou čtyři datové vstupy D0-D3, dole jsou čtyři datové výstupy Q0-Q3, a vlevo je velký dekodér (demultiplexer) 2-na-4 (nebo 1-z-4, jak chcete). Každá buňka je zapojená takto:
 
-![297-1.png](images/000266.png)
+![297-1.png](../images/000266.png)
 
 Podle kombinace na vstupech A0, A1 je vybrán jeden z adresních řádků Y0, Y1, Y2, Y3\. Tyto řádky jsou připojené na vstup ADDR každé buňky v řádku. Vstup ADDR řídí třístavový budič U3 na výstupu. V řádku, který má nastavený ADDR na 1, se tak výstup Q každého klopného obvodu připojí na odpovídající vývod Qx (výstupy v ostatních řádcích budou odpojené). Na vývodech Q0-Q3 tak bude k dispozici kombinace z příslušných klopných obvodů. Říkáme, že tím „čteme z paměti“.
 

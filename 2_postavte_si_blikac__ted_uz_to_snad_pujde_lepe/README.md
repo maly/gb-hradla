@@ -20,13 +20,13 @@ Budete potřebovat:
 
 Bez dalšího vysvětlování si pojďte poskládat obvod na nepájivém kontaktním poli. Výsledek bude vypadat nějak takto:
 
-![049-1.jpeg](images/00080.jpeg)
+![049-1.jpeg](../images/00080.jpeg)
 
 Nejprve se podívejte na nepájivé kontaktní pole. Všimněte si, jak je toto pole uspořádané. Nahoře a dole (z tohoto pohledu) jsou dvě oddělené lišty, označené červeným a modrým proužkem. To jsou napájecí lišty, které slouží k rozvádění napájecího napětí do obvodu. Jsou uspořádané do pětic a jsou spolu uvnitř pole vodivě propojeny horizontálně, jak je naznačeno na následujícím obrázku.
 
 Střední část pole je uspořádána jinak – zde je horní a dolní polovina, a v nich jsou vždy jednotlivé pětice otvorů propojeny svisle (a-b-c-d-e, f-g-h-i-j). Je to výhodné uspořádání pro součástky, které mají dvě řady vývodů, jako náš integrovaný obvod 7404\. Takový obvod přesně sedne doprostřed, a každý jeho vývod je připojen ke čtyřem dalším otvorům, takže máte dostatečný prostor na propojování.
 
-![050-1.jpeg](images/00082.jpeg)
+![050-1.jpeg](../images/00082.jpeg)
 
 Než vytáhnete integrovaný obvod z obalu, tak se nejprve uzemněte. Sáhněte třeba na radiátor. Statická elektřina je prevít a některé citlivé obvody můžete zničit tím, že na ně sáhnete. Pokud máte 74ALS04 nebo 74LS04, tak ty tak citlivé nejsou, ale některé řady (74HCT04) a bez výjimky všechny složitější obvody jsou na statickou elektřinu velmi citlivé. Proto se většinou prodávají zapíchané v proužku vodivé pěny, která udržuje všechny vývody propojené, a tudíž se nestane, že by na jednom vývodu bylo velmi vysoké napětí oproti ostatním.
 
@@ -44,7 +44,7 @@ Vývody integrovaného obvodu jsou očíslované od 1, jenže na pouzdru tato č
 
 Když víte, jak je obvod orientovaný, tak ho zasuňte do pole tak, jak je nakresleno na úvodním obrázku. Nepůjde to, vývody trochu nepasují – je to proto, že vývody jsou z výroby lehce „rozkročené“. Proto je decentním tlakem z obou stran o trochu narovnejte, aby byly rovnoběžné. Já k tomu používám plochu stolu. Stačí opravdu maličko. Pak obvod půjde bez problémů zasunout do nepájivého kontaktního pole. Zasuňte ho tak, aby vývod 1 byl vlevo dole, třeba v otvoru „10e“. Je to jedno, ale aspoň se v tom lépe vyznáte.
 
-![051-1.png](images/000084.png)
+![051-1.png](../images/000084.png)
 
 Máte-li vývod 1 vlevo dole, tak číslování pokračuje proti směru hodinových ručiček – napravo od 1 je 2, pak 3, 4, až k vývodu číslo 7\. Naproti němu je vývod číslo 8 (vpravo nahoře), a číslování pokračuje až k vývodu 14 (vlevo nahoře). Obvod 7404 totiž používá čtrnáctivývodové pouzdro (značí se DIL14 nebo DIP14). Některé obvody mají pouzdra větší – 16 vývodů, 24 vývodů, 28, 40, někdy i víc. Ale obvykle platí, že od určitého počtu vývodů se obvody primárně dělají v pouzdrech pro povrchovou montáž (SMD – Surface Mount Device), které mívají přes sto miniaturních vývodů. Ty ale my používat nebudeme.
 

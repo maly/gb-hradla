@@ -2,7 +2,7 @@
 
 Uděláme jen drobnou změnu. Místo „za sebou“ zapojíme rezistory „vedle sebe“ – tedy místo sériového zapojení zvolíme paralelní. Takto.
 
-![096-1.png](images/000119.png)
+![096-1.png](../images/000119.png)
 
 Na takové zapojení můžeme opět pohlížet jako na zapojení jednoho rezistoru s celkovým odporem Rx. Jaká bude jeho velikost? Schválně, zkuste hádat:
 

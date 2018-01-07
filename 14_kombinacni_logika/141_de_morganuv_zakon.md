@@ -6,13 +6,13 @@ _No jasně, získáte tak invertor!_
 
 Zkuste si to:
 
-![157-1.png](images/000312.png)
+![157-1.png](../images/000312.png)
 
 Tlačítko S2 je teď úplně „plonkové“, bez funkce (jen zahřívá rezistor R2). Tlačítko S1 obsluhuje oba vstupy.
 
 A když zapojíte takový invertor na výstup hradla NAND? Tedy použijete dvě hradla…
 
-![157-2.png](images/000135.png)
+![157-2.png](../images/000135.png)
 
 Zapište si zase výsledky do tabulky:
 
@@ -27,7 +27,7 @@ Jistě už víte, co to je za funkci.
 
 A co když invertujete vstupy hradla NAND? Jaký bude výsledek? (Napovím: všimněte si v tabulce podobnosti mezi sloupcem NAND a dalšími sloupci... A všimněte si, že při invertování A a B dostanete tutéž tabulku, ale pozpátku...)
 
-![158-1.png](images/000043.png)
+![158-1.png](../images/000043.png)
 
 A naměřené výsledky hned do tabulky:
 

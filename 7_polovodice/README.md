@@ -8,14 +8,14 @@ Polovodiče, třeba křemík nebo germanium, nemají moc volných elektronů. V 
 
 Stabilitu ovšem může narušit přidání energie zvenčí – kupříkladu světla či tepla. Dodaná energie excituje atomy, dojde k porušení těchto vazeb mezi atomy, a elektrony začnou opět nám známým způsobem putovat po látce. U původního atomu tak vznikne „díra“. Elektron nese záporný náboj, díra kladný. Čím víc energie dodáváme, tím víc podobných párů „elektron-díra“ vzniká. Většina z nich ale opět zanikne – nějaký volný elektron zaplní díru, ne nutně u stejného atomu.
 
-![85-0.png](images/000124.png)
+![85-0.png](../images/000124.png)
 
 Pokud ale do takové struktury zaneseme příměs, která má víc valenčních elektronů (například fosfor, arsen, antimon), stanou se atomy této látky součástí mřížky. Čtyři elektrony vytvoří páry se sousedními atomy, ale pátý elektron bude „volný“, a začne se potulovat hmotou. Vzniklá hmota bude vodivá, a protože vodivost zajišťují elektrony s negativním nábojem, říkáme, že se jedná o polovodič typu N.
 
-![85-1.png](images/000270.png)
+![85-1.png](../images/000270.png)
 
 Když do krystalu polovodiče naopak přidáme příměs takového prvku, který má pouze tři valenční elektrony (bór, hliník, galium, indium), bude v mřížce jeden elektron chybět, a vznikne tak (kladně nabitá) díra. Do ní může přeskočit elektron ze sousedního atomu – a tak se díra vlastně přesune o atom dál. Takto pozměněný polovodič bude rovněž vodivý, ovšem bude to polovodič typu P – protože jeho vodivost je založena na dírách, které mají kladný (= pozitivní) náboj.
 
-![85-2.png](images/000321.png)
+![85-2.png](../images/000321.png)
 
 Zatím to je nuda. Polovodič vede občas, a můžeme do něj přidat příměsi, co z něj udělají buď P, nebo N. A dál?

@@ -8,7 +8,7 @@ Použijte paměť z řady 24LC – třeba 24LC01, ale klidně i jakoukoli jinou 
 
 Paměti 24LCxx mají následující zapojení vývodů:
 
-![310-1.png](images/000275.png)
+![310-1.png](../images/000275.png)
 
 Vývody 1, 2 a 3 nastavují adresu. Už jsem se zmiňoval, že zařízení na sběrnici I2C mají svou sedmibitovou adresu, a že u některých ji lze změnit. Sériové paměti EEPROM mívají jako základní adresu 0x50, a tři nejnižší bity lze nastavit pomocí vstupů A0-A2\. Konkrétní čip tedy může být nastaven tak, aby se hlásil na jedné ze sedmi adres 0x50 – 0x57\. Pokud máte na jedné sběrnici jen jednu paměť, tak připojte všechny vstupy A na zem, paměť tak bude mít adresu 0x50.
 
@@ -16,7 +16,7 @@ Na zem připojte i vývod 7 – WP (Write protect). Pokud je připojen k zemi, m
 
 Teď zbývá jen připojit napájecí napětí a signály pro I2C, tedy SDA a SCL. Na konci knihy, v přílohách, najdete takzvaný „pinout“, neboli rozložení vývodů Arduina včetně speciálních funkcí. A tam zjistíte, že SCL je vyveden na pin A5 a SDA na pin A4\. propojení pak vypadá nějak takto:
 
-![311-1.png](images/000036.png)
+![311-1.png](../images/000036.png)
 
 Pro zápis do této paměti stačí poslat po sběrnici I2C nejprve adresu obvodu (tedy výše zmíněných 0x50), poté adresu v paměti (dva bajty, nejprve vyšší), a nakonec požadovaný bajt k zápisu. Nezapomeňte po zápisu počkat dostatečně dlouhou dobu – EEPROM zapisují pomalu.
 

@@ -4,11 +4,11 @@ Tlačítka, přepínače, vypínače, spínače a jiné zapínače a odpínače 
 
 Hodně o jejich funkci napoví schematické značky:
 
-![143-1.png](images/000381.png)
+![143-1.png](../images/000381.png)
 
 Toto je schematická značka tlačítka. Všimněte si, že vodič je přerušený, a je nad ním ploška. Přesně tak vypadá tlačítko uvnitř: jsou tam dva póly a nad nimi pružný plíšek, na který tlačí plastový hmatník. Jakmile zatlačíte prstem, tak se plíšek při určitém tlaku prohne (s typickým cvaknutím) a oba póly propojí. Když tlak přestane, plíšek se opět prohne na druhou stranu a obvod zase rozpojí.
 
-![144-1.png](images/000385.png)
+![144-1.png](../images/000385.png)
 
 Tlačítka, která budete používat nejčastěji, jsou malá mikrotlačítka, která mají čtyři vývody. Vždy dva a dva jsou spojeny dohromady, a mezi těmito dvěma páry je právě samotný mechanismus tlačítka.
 
@@ -28,7 +28,7 @@ Uvnitř bývá mechanická propojka, která vždy spojí prostřední vývod (sp
 
 Přepínač nemusí být jen páčkový, jak jej známe ze starších elektronických výrobků. Může být třeba posuvný.
 
-![145-1.png](images/000393.png)![145-2.jpeg](images/00403.jpeg)
+![145-1.png](../images/000393.png)![145-2.jpeg](images/00403.jpeg)
 
 Tento přepínač se dá, při troše dobré vůle, použít i do nepájivého kontaktního pole. Bohužel, rozteč vývodů u některých laciných přepínačů může být pouze 2,5 mm, ne 2,54, a tak lehce nesedí, což je škoda. Snažte se proto sehnat takové, které mají rozteč 2,54 mm.
 
@@ -42,4 +42,4 @@ DPST – Dual pole (dvoupólový), single throw (s jedním vývodem, tedy spína
 
 DPDT – Dual pole (dvoupólový), dual throw (s dvěma vývody, tedy přepínač)
 
-![146-1.jpeg](images/00412.jpeg)
+![146-1.jpeg](../images/00412.jpeg)

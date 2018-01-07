@@ -6,7 +6,7 @@ Představme si řetěz obvodů typu D, podobně jako u výše zmíněných čít
 
 Všechny klopné obvody mají spojený vstup CLK, a všechny mají vyvedený vstup CLR (Reset).
 
-![260-1.png](images/000259.png)
+![260-1.png](../images/000259.png)
 
 Začíná se od stavu 0000, a čítač nabývá postupně hodnot 0000, 0001, 0011, 0111, 1111, 1110, 1100, 1000 – a pak zase od 0000\. Počítá tedy v takzvaném „Johnsonově kódu“…
 
@@ -55,8 +55,8 @@ Představte si, že máte cosi, co se otáčí, a vy chcete vědět, jakým smě
 
 První pokus bude vypadat nějak takto:
 
-![262-1.png](images/000324.png)
+![262-1.png](../images/000324.png)
 
 Jenže stačí drobná nepřesnost, a hned v pozici „nahoře“ vám vznikne přechod 001 – 011 – 010, popřípadě 001 – 000 – 010\. Když použijeme Grayův kód, nic takového nehrozí:
 
-![262-2.png](images/000280.png)
+![262-2.png](../images/000280.png)

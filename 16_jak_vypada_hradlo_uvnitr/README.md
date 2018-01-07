@@ -8,7 +8,7 @@ Základní prvek je invertor. Musíme nějak dokázat, aby na výstupu byl proud
 
 Začneme úplně od lesa. Zapojte si do série tlačítko, LED a rezistor tak, aby LED svítila, když zmáčknete tlačítko. Máte? Nějak takhle to bude:
 
-![192-1.png](images/000006.png)
+![192-1.png](../images/000006.png)
 
 A teď výzva: Zapojte to tak, aby to fungovalo obráceně, totiž aby LED ZHASLA, když zmáčknete tlačítko.
 
@@ -22,13 +22,13 @@ Napovím: Proud jde cestou menšího odporu. A co má menší odpor – tlačít
 
 Dobře, tak takhle:
 
-![193-1.png](images/000009.png)
+![193-1.png](../images/000009.png)
 
 Když tlačítko pustíte, jde proud přes rezistor do diody. Když tlačítko zmáčknete, teče místo toho většina tím tlačítkem.
 
 No, a teď využijeme toho, že tranzistor je vlastně takový „proudem řízený spínač“. Postavte si toto:
 
-![193-2.png](images/000026.png)
+![193-2.png](../images/000026.png)
 
 Princip je jednoduchý: Když je na vstupu logická 0 (L), tedy vstup je spojen (více méně) se zemí, je tranzistor zavřený, a proud teče přes rezistor 640 ohmů z napájecího napětí na výstup. Jakmile na vstup přivedeme log. 1 (H), tranzistor se otevře a spojí výstup se zemí. Na výstupu bude tedy logická 0.
 
@@ -48,6 +48,6 @@ Výhodou TTL proti RTL je nižší spotřeba a větší rychlost. Nevýhodou pak
 
 Pokud na vstup přivedeme logickou 1 (H), dostane se toto napětí na bázi Q2, který se otevře. Proud nyní putuje přes R2 a Q2 do báze Q3\. Q4 je tedy zavřený, Q3 otevřený, a výstup je propojen přes něj se zemí.
 
-![194-1.png](images/000223.png)
+![194-1.png](../images/000223.png)
 
 Toto řešení výstupu pomocí dvou tranzistorů, rezistoru a diody se nazývá též _totem_. Připomíná Darlingtonovo zapojení, které dovoluje spínat velké proudy. Díky tomu lze výstup zatížit poměrně velkou zátěží. U standardní řady TTL lze na jeden výstup hradla připojit až deset vstupů.

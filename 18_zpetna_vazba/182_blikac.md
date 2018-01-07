@@ -1,6 +1,6 @@
 ## 18.2 Blikač {#18-2-blika}
 
-![208-1.png](images/000379.png)
+![208-1.png](../images/000379.png)
 
 Vzpomínáte si na blikač z první kapitoly? Jak ten vypadal?
 
@@ -12,26 +12,26 @@ Rezistor přenáší napětí z výstupu 2 – tam je logická 1 – zpátky na 
 
 A celý proces pojede obráceně. Teď se bude naopak kondenzátor vybíjet. A jakmile napětí klesne pod danou mez, zase se celý obvod přepne. Průběh napětí na vstupu 1 bude vypadat nějak takto:
 
-![209-1.png](images/000255.png)
+![209-1.png](../images/000255.png)
 
 Teď už vám je jasné, že mnohem lepší a čistší by bylo použít invertory, které mají na vstupech Schmittův obvod, tedy typ 7414.
 
 Samozřejmě, že toto není jediný typ astabilního obvodu. Existují i další zapojení:
 
-![209-2.png](images/000392.png)
+![209-2.png](../images/000392.png)
 
 Frekvence kmitání takovýchto oscilátorů je zhruba 1 / (2,2.R.C) (Hz; Ω, F)
 
 Existují i „oscilátory chudého muže“ s jedním invertorem:
 
-![210-1.png](images/000367.png)
+![210-1.png](../images/000367.png)
 
 nebo s dvěma kondenzátory
 
-![210-2.png](images/000409.png)
+![210-2.png](../images/000409.png)
 
 Ovšem v praxi se používá buď přesnější časovač 555 (NE555), nebo krystalový oscilátor, kde je kondenzátor nahrazen součástkou, zvanou „krystal“, což je opravdu kousek křemíkového krystalu, který mění svou kapacitu s určitou frekvencí, která je velmi přesná a stabilní.
 
-![211-1.png](images/000035.png)
+![211-1.png](../images/000035.png)
 
 Krystalové oscilátory se používají všude tam, kde je potřeba mít přesný zdroj pulsů.

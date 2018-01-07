@@ -12,7 +12,7 @@ Za chvíli vám ukážu různé způsoby připojení více tlačítek, ale teď 
 
 Představme si, že máme N vodičů svisle a M vodičů vodorovně. Třeba v matici 4 × 4 budeme mít čtyři sloupce (Col1-Col4) a čtyři řádky (Row1 – Row4), nějak takto:
 
-![375-1.png](images/000096.png)
+![375-1.png](../images/000096.png)
 
 Do míst, kde se sloupce a řádky kříží, připojíme tlačítka. A dál?
 
@@ -20,14 +20,14 @@ Jednotlivé řádky a sloupce připojíme na osm pinů mikrokontroléru. Dejme t
 
 Pro 16 tlačítek potřebujeme 8 vodičů. To možná nevypadá jako velká výhra, ale třeba u počítače ZX Spectrum, které mělo 40 tlačítek, stačilo k jejich obsluze pouhých 13 vodičů (8 řádků × 5 sloupců, ovšem fyzicky uspořádané jako 4 × 10).
 
-![376-1.png](images/000263.png)
+![376-1.png](../images/000263.png)
 
 Výhoda takového uspořádání je i ta, že nemusíte na každý bod dávat mechanické tlačítko, které je poměrně drahé. Můžete použít dvě membrány, na nichž jsou nakreslené vodivé spoje, křížené v místech tlačítek, a mezi nimi je distanční vložka, která drží v klidu obě vrstvy kousek od sebe. Teprve když v místě křížení zatlačíme, spojí se obě cesty…
 
-![377-1.jpeg](images/00316.jpeg)
+![377-1.jpeg](../images/00316.jpeg)
 
 Tomuto typu klávesnice se říká membránová. I když třeba v ZX Spectru byl na ní položený gumový hmatník, byla to uvnitř jen a pouze membrána. Dokonce i většina levnějších PC klávesnic má uvnitř membránu. Nevěříte?
 
-![377-2.jpeg](images/00374.jpeg)
+![377-2.jpeg](../images/00374.jpeg)
 
 Pouze ty dražší mají v sobě opravdová tlačítka.

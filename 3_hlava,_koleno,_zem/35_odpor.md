@@ -6,4 +6,4 @@ Ve světě elektřiny existuje analogická vlastnost, totiž vodivost. Vodivost 
 
 Odpor doplnil základní trojici elektrických veličin. Pardon za dlouhý výklad bez experimentů. Teď hned jdeme něco změřit!
 
-![067-1.jpeg](images/00034.jpeg)
+![067-1.jpeg](../images/00034.jpeg)

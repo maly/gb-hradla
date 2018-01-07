@@ -4,7 +4,7 @@ Jak už z mezititulku tipujete, půjde asi zas o nějaký skvělý integrovaný 
 
 74595 je obvod, který se skládá z osmibitového posuvného registru a osmibitového klopného obvodu typu D.
 
-![277-1.jpeg](images/00002.jpeg)
+![277-1.jpeg](../images/00002.jpeg)
 
 Všimněte si, že posuvný registr má sériový vstup A, sériový výstup SQh, hodinový vstup Shift Clock, též SRCLK (náběžná hrana posouvá informace v registru) a nulovací vstup /RESET. Díky tomu můžeme po dvou signálech (Serial In a Clock) poslat do posuvného registru osm bitů tak, jak potřebujeme. Náběžnou hranou na vstupu Load (Latch Clock, RCLK – každý výrobce značí vývody jinak, ale význam je stejný) přeneseme stav posuvného registru do klopných obvodů D. Ty budou tento stav pouštět na výstup a zároveň jej budou držet až do příští náběžné hrany na RCLK.
 
@@ -14,13 +14,13 @@ Díky tomu, že posuvný registr má i sériový výstup, můžeme těchto obvod
 
 Pomocí tří vodičů (Serial In, SRCLK a RCLK) tak můžeme ovládat teoreticky neomezené množství registrů. Každý registr má k dispozici osm výstupů…
 
-![278-1.png](images/000356.png)
+![278-1.png](../images/000356.png)
 
 Ke každému registru můžeme (přes rezistory) připojit sedmisegmentovku. Výstupy mají budiče a jsou schopné dodávat 6 mA. Celý obvod je navíc poměrně rychlý a dokáže pracovat na frekvenci 25 MHz.
 
 Pojďte si to zapojit. Jen obvod 74595 a sedmisegmentovku. Bude se to celé budit z Arduina. Aspoň se pocvičíte v práci se sériovými daty.
 
-![278-2.png](images/000019.png)![279-1.png](images/000360.png)
+![278-2.png](../images/000019.png)![279-1.png](images/000360.png)
 
 Schéma a zdrojový kód najdete na [eknh.cz/595](https://eknh.cz/595)
 

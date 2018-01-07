@@ -6,7 +6,7 @@ Jak na to? Vlastně potřebujete, aby větší množství světla znamenalo men�
 
 Ve tmě je odpor fotorezistoru R1 velký, takže proud teče přes rezistor R2 do LED a ta svítí. Pokud na fotorezistor posvítíte, jeho odpor klesne, víc proudu poteče přes něj do země, napětí na LED tak poklesne…
 
-![117-2.png](images/000243.png)
+![117-2.png](../images/000243.png)
 
 Jak velký by měl být rezistor R2? To si můžete spočítat podle odporu fotorezistoru R1 v závislosti na osvětlení. Nejjednodušší je změřit si odpor fotorezistoru ve tmě a za osvětlení. U mého to bylo zhruba 20 kΩ ve tmě a 200 Ω při přímém osvětlení. Pak jsem si nasimuloval „šero“, tedy úroveň, při níž bych chtěl, aby se LED rozsvítila. Bylo to okolo 10 kΩ.
 
@@ -18,6 +18,6 @@ Po úpravách: R2 = (U × R1 / U1) – R1
 
 Vychází mi 15 kΩ. Vám taky? S rezistorem R2 o velikosti 15k tedy budou „za šera“ na LED dva volty, a LED začne svítit. Teda – teoreticky. Můžete si zkusit přijít na důvod, proč to zpochybňuju, za chvíli se k tomu vrátím.
 
-![118-1.png](images/000251.png)
+![118-1.png](../images/000251.png)
 
 V praxi bych udělal ještě jednu úpravu: na místě R2 bych použil nastavitelný rezistor – tedy potenciometr, nebo menší variantu: trimr.

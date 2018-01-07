@@ -12,7 +12,7 @@ Když se podíváme konkrétně na typ, který je použit v Arduinu UNO: kromě 
 
 ### 32.6.2 Vnitřní uspořádání ATmega328 {#32-6-2-vnit-n-uspo-d-n-atmega328}
 
-![363-1.jpeg](images/00151.jpeg)
+![363-1.jpeg](../images/00151.jpeg)
 
 Zdroj: Atmel
 

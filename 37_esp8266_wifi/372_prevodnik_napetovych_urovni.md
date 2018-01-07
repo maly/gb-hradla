@@ -2,7 +2,7 @@
 
 Velmi užitečná věc ve chvíli, kdy potřebujete propojit obvody s různou logikou – nejčastěji třeba 5 V Arduino a 3,3 V senzory. Existuje jednoduché zapojení, které dokáže konvertovat logické signály z jedné úrovně do druhé, a potřebuje k tomu pouze jeden tranzistor MOSFET:
 
-![397-1.png](images/000038.png)
+![397-1.png](../images/000038.png)
 
 LV a HV je nízké (low) a vysoké (high) napájecí napětí, LV1, respektive HV1 jsou vstupy / výstupy v patřičných úrovních. Převodník funguje obousměrně.
 
@@ -10,13 +10,13 @@ LV a HV je nízké (low) a vysoké (high) napájecí napětí, LV1, respektive H
 
 Naštěstí nemusíte sestavovat a pájet převodníky, existují jako hotové moduly, nejčastěji pro čtyři signály, nebo pro osm signálů:
 
-![398-1.jpeg](images/00220.jpeg)![398-2.jpeg](images/00059.jpeg)
+![398-1.jpeg](../images/00220.jpeg)![398-2.jpeg](images/00059.jpeg)
 
 Na jedné straně, tam, kde je LV, se připojují signály obvodu 3,3 V, na straně HV se připojují 5 V. LV a GND (resp. HV a GND) slouží k připojení napájecího napětí.
 
 Připojení ESP8266 přes takový převodník je opravdu hračka:
 
-![398-3.png](images/000308.png)
+![398-3.png](../images/000308.png)
 
 Všimněte si, že modul je zapojený tak, jak byste čekali, tedy RxD na TxD a vice versa, jen je mezi Arduino a ESP vložen převodník úrovní.
 

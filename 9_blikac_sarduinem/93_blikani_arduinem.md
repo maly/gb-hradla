@@ -32,7 +32,7 @@ Zpátky k příkladu blink. Ve funkci setup() je volaná nějaké funkce pinMode
 
 V horní liště, hned pod menu, je několik tlačítek. To úplně první vlevo zkontroluje, jestli jsou v kódu nějaké chyby. To druhé, vedle něj, s ikonkou šipky, spustí překlad, a po překladu se přeložený kód nahraje do Arduina po USB kabelu.
 
-![111-1.png](images/000307.png)
+![111-1.png](../images/000307.png)
 
 Předpokládám, že máte vše nastavené a propojené, na Arduinu svítí LED, která signalizuje napájení – pojďme na to! Klikněte směle na překlad a nahrání.
 

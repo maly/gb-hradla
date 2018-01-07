@@ -2,7 +2,7 @@
 
 Připravte si zase nepájivá kontaktní pole. Připravte si propojovací vodiče. Tentokrát odpojte napájení, vezmete si potřebné napětí přímo z Arduina. Všimněte si na Arduinu dole dvou vývodů, označených GND (ten je zdvojený) a 5 V. GND je i v horní řadě vývodů – je úplně jedno, který použijete, protože uvnitř jsou stejně propojené. A teď připojte tyto dva vývody k napájecím lištám na kontaktním poli. Nějak takto:
 
-![111-2.png](images/000130.png)
+![111-2.png](../images/000130.png)
 
 Tak, a teď pokaždé, když Arduino poběží, budete mít na kontaktním poli i potřebné napájecí napětí. Jupí.
 
@@ -10,13 +10,13 @@ Zapojte si LED.
 
 Z minulé kapitoly si jistě pamatujete, že LED má dva vývody a zapojuje se k ní rezistor. Udělejte to podle obrázku:
 
-![112-1.png](images/000163.png)
+![112-1.png](../images/000163.png)
 
 Připojte Arduino k počítači – ani v něm nemusí být nic nahraného. LED by měla svítit. Pokud nesvítí, otočte ji (a tím otočením myslím, že prohodíte její vývody, ne že ji třeba… co já vím… vzhůru nohama, nebo tak něco).
 
 Svítí? Jupí. Teď ji propojte s Arduinem:
 
-![112-2.png](images/000176.png)
+![112-2.png](../images/000176.png)
 
 Všimněte si, co přesně jsem nakreslil – vodič, který propojoval LED a kladný pól, jsem odstranil, a místo kladného pólu jsem daný vývod LED zapojil do Arduina, na pin číslo 8\. Proč? No protože jsem se rozhodl, že budu LED ovládat Arduinem. A vy taky!
 

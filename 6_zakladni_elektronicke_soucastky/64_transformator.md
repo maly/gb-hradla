@@ -2,7 +2,7 @@
 
 Transformátor je známá součástka, se kterou máme všichni každodenní zkušenost. Transformátor slouží k tomu, abychom určitou úroveň napětí – třeba 230 voltů v zásuvce – snížili na nižší hodnotu, nebo naopak na vyšší. Transformátor je fyzicky tvořen dvěma cívkami na společném jádru. Změna proudu v jedné z těchto cívek vyvolá změnu magnetického pole, a tato změna v druhé cívce vyvolá indukci proudu. Poměr počtu závitů obou cívek udává poměr, v němž se transformuje proud, a tedy i napětí. Pokud transformujeme napětí 230 V přes transformátor s poměrem závitů např. 1000:10000, získáme napětí 23 voltů, tedy desetinové, ovšem procházející proud bude desetinásobný.
 
-![114-1.jpeg](images/00192.jpeg)
+![114-1.jpeg](../images/00192.jpeg)
 
 Toho se využívá například při indukčním ohřevu – pod indukční deskou je cívka s mnoha závity, druhou cívku tvoří dno hrnce – které můžeme považovat za jeden závit. V něm se indukcí vytváří velmi nízké napětí, ovšem prochází jím obrovský proud, který ohřívá vodič – v našem případě dno.
 
@@ -22,13 +22,13 @@ V napájecích obvodech u PC se používá kombinace transformátoru a spínané
 
 Označení 7805 nese součástka, kterou vyráběla už Tesla za socialismu. Jde o napěťový stabilizátor, který dokáže snížit napětí v rozsahu 7,5 V – 35 V na napětí 5 voltů. Jeho zapojení je velmi jednoduché: je to součástka se třemi vývody. Prostřední je společná zem, a dva krajní jsou vstup a výstup. Zapojuje se spolu se dvěma kondenzátory:
 
-![115-1_.png](images/000205.png)![115-2.png](images/000216.png)
+![115-1_.png](../images/000205.png)![115-2.png](images/000216.png)
 
 Někde se setkáte i s doporučením použít elektrolytické kondenzátory s řádově vyšší kapacitou, třeba i 10 µF. To může pomoci s vykrýváním odběrových špiček, ale zase má zdroj pomalejší náběh.
 
 Takto zapojený stabilizátor dá dostatek proudu pro napájení číslicového obvodu. Pokud je potřeba větší proud, počítejte s tím, že se stabilizátor bude zahřívat, a přidejte k němu chladič. Chladič je tvarovaný hliníkový profil, který má velkou plochu a odvádí dobře teplo. Uprostřed je otvor pro šroub, stejný, jako má obvod 7805.
 
-![116-1_.jpeg](images/00230.jpeg)
+![116-1_.jpeg](../images/00230.jpeg)
 
 Obvod 7805 je levný, dobře dostupný a jednoduchý k použití. Bohužel má i své nevýhody, především vysokou vlastní spotřebu (ale k tomu se ještě dostaneme v kapitole o nízkopříkonových zařízeních). Pro stabilizaci napětí z baterií proto není příliš vhodný, ale pro zapojení, poháněné transformátorem (třeba starým napájecím adaptérem pro mobilní telefony nebo notebooky), jde o řešení použitelné.
 

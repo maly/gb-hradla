@@ -6,7 +6,7 @@ Elektrický výkon je pro nás velmi užitečná veličina, protože udává nej
 
 Mimochodem, když si do předchozího výrazu P = U . I dosadíte podle Ohmova zákona (U = R . I), tak zjistíte, že lze výkon vyjádřit i pomocí odporu a proudu, jako P = R . I . I = R . I2. Tedy že výkon je přímo úměrný odporu, který proud překonává, a druhé mocnině velikosti proudu. Což je důvod, proč se pro dálkový přenos elektřiny používá velmi vysoké napětí s malými proudy: snižují se tím ztráty ve vedení. Elektrické vedení o délce 100 kilometrů má nezanedbatelný odpor, a máme jedinou možnost, jak snížit „propálený výkon“: snížit procházející proud. A k tomu, abychom mohli snížit proud, potřebujeme zvýšit napětí.
 
-![070-1.jpeg](images/00265.jpeg)
+![070-1.jpeg](../images/00265.jpeg)
 
 Zkuste si to spočítat:
 

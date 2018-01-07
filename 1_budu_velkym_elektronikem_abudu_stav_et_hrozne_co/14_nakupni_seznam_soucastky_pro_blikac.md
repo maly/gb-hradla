@@ -8,7 +8,7 @@ Především jsou to LED. LED je akronym anglických slov Light Emitting Diode, 
 
 Ale zpět k věci: LED jsou v nejrůznějších barvách, nejčastěji červená, žlutá, zelená, modrá a bílá. Jsou i vícebarevné diody, dvoubarevné, trojbarevné (RGB – červená, zelená, modrá) i čtyřbarevné (RGBW – jako předchozí, ale navíc s bílou). Jsou diody se zabudovaným řídicím obvodem, který umožňuje sofistikované řízení, např. v různých LED páskách. Ale ty potřebovat nebudete. Kupte si do začátku úplně obyčejné jednobarevné LED, třeba pět kusů od každé barvy. Jestli zvolíte průměr 5 mm, nebo 3 mm, to je jedno. Ty větší líp „sednou do ruky“ při manipulaci, ty menší zase snáze dáte vedle sebe. Já používám pětimilimetrovou verzi…
 
-![044-1.jpeg](images/00071.jpeg)
+![044-1.jpeg](../images/00071.jpeg)
 
 CC-BY-SA, autor Afrank99
 
@@ -20,19 +20,19 @@ Rezistory se třídí do různých skupin – podle výkonu, podle přesnosti, p
 
 Pořiďte si pro první pokusy rezistory o odporu 330 ohmů (označují se 330R), 1000 ohmů (1K) a 10 000 ohmů (10K). Kdo chce, pořídí si i 220R, 2K2, 4K7, 22K, ať můžeme experimentovat. Od každé velikosti tak deset kusů, ale víc se rozhodně neztratí. (O značení a jednotkách si za chvíli povíme víc.)
 
-![045-1.jpeg](images/00074.jpeg)
+![045-1.jpeg](../images/00074.jpeg)
 
 ### 1.4.3 Kondenzátory {#1-4-3-kondenz-tory}
 
 Kromě rezistorů budete potřebovat i kondenzátory. Základní vlastností kondenzátorů je jejich kapacita, která se měří ve faradech (značíme F). Ještě začátkem 90\. let platilo, že nejčastější kapacity se udávají v pikofaradech, nanofaradech a mikrofaradech (bilióntina, miliardtina, milióntina), ovšem dnes jsou dostupné kondenzátory s kapacitou stovek faradů. V číslicové technice takové velké kapacity můžeme použít k napájení obvodů při výpadku, ale vy je teď potřebovat nebudete. Vystačíte si pro začátek s kapacitami 33 pikofaradů (pF), 100 nanofaradů (nF) a 10 mikrofaradů (µF; u tohoto se nenechte vylekat tím, že bude označený jako „elektrolytický“). Setkáte se taky se starším označením 33, 100K a 10M. Opět vezměte ty nejlevnější, na experimenty budou stačit. Kapacity 33 pF a 100 nF vypadají jako malý polštářek, 10 μf vypadá jako váleček.
 
-![046-1.jpeg](images/00076.jpeg)
+![046-1.jpeg](../images/00076.jpeg)
 
 ### 1.4.4 Integrované obvody {#1-4-4-integrovan-obvody}
 
 A když už jsme v tom, tak si kupte i dva integrované obvody. Jeden má označení 74HCT00, druhý 74HCT04\. Pokud nebude k dispozici HCT, kupte klidně LS nebo ALS (74LS00, 74ALS04, …) Pozor! Vybírejte takové, které jsou v pouzdře DIL (někdy značeno jako DIP). Takové můžete zastrčit do nepájivého kontaktního pole. Vyhněte se pouzdrům SO, ty jsou určené pro povrchovou montáž pájením.
 
-![046-2.jpeg](images/00079.jpeg)
+![046-2.jpeg](../images/00079.jpeg)
 
 Později budete potřebovat i další součástky – tranzistory, diody, integrované obvody. Jejich seznam najdete na konci knihy, abyste nemuseli kupovat každou součástku zvlášť. Teď si vystačíme s tím, co je výše napsané. Vážně!
 

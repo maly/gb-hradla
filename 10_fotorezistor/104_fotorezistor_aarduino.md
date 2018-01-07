@@ -18,7 +18,7 @@ No a konečně můžete říct, že si referenční napětí, ne vyšší než 5
 
 Ale to jsem trochu odbočil. Pokud k Arduinu připojujete třeba fotorezistor nebo podobnou součástku (například termistor, což je rezistor, jehož odpor je závislý na teplotě), používá se většinou některý z analogových vstupů, a součástku zapojujete v sérii s rezistorem, jako napěťový dělič. Analogový vstup totiž měří _napětí_, nikoli _proud_. Kdybyste zapojili třeba jen fotorezistor na + 5 voltů, tak by se se změnou odporu měnil proud, ale napětí by bylo stále 5 voltů.
 
-![122-1.png](images/000277.png)
+![122-1.png](../images/000277.png)
 
 Když si fotorezistor takto zapojíte, zjistíte, že při velmi silném osvětlení funkce analogRead(A0) vrátí téměř 1023, ve tmě klesne – nikoli na nulu, protože odpor fotorezistoru nebude nekonečný, takže napětí neklesne k ideální nule, ale klesne hodně nízko.
 
@@ -40,7 +40,7 @@ Když tento program napíšete do Arduino IDE a nahrajete do Arduina, bude měř
 
 Všimněte si, že ve funkci Setup volám Serial.begin(9600). Tato funkce zajistí zapnutí této komunikace a nastavení přenosové rychlosti. Toto číslo je velmi důležité – přenosová rychlost, s jakou Arduino pracuje, musí být shodná s přenosovou rychlostí, jakou komunikuje počítač.
 
-![123-1.jpeg](images/00288.jpeg)
+![123-1.jpeg](../images/00288.jpeg)
 
 Ta se nastavuje v Sériovém monitoru vpravo dole – všimněte si hodnoty „9600 baudů“.
 

@@ -4,7 +4,7 @@ Až dosud jsme mlčky předpokládali, že zdroj napětí má svůj kladný a z�
 
 Kromě stejnosměrného proudu se v elektrotechnice využívá i proud střídavý. Takový proud mění svůj směr, chvíli teče jedním směrem, chvíli druhým. Takový proud má své výhody – lze jej velmi dobře transformovat v transformátorech, proto se používá k rozvodu elektrické energie. Střídání směrů si ale nepředstavujte jako přepínání „dopředu – dozadu“. Ve skutečnosti se směry plynule mění. Když si průběh takového proudu nakreslíme v čase, dostaneme hezkou sinusovku:
 
-![075-2.png](images/000285.png)
+![075-2.png](../images/000285.png)
 
 Samozřejmě že střídavý proud může mít i jiný průběh – obdélníkový, trojúhelníkový, pilový, nepravidelný apod. To uvádím jen pro úplnost. Nejčastěji se pod pojmem „střídavý proud“ myslí právě takovýto sinusový.
 

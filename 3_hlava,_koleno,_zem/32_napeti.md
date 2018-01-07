@@ -14,6 +14,6 @@ Vrátím se na chvíli ke svému říkadlu a stvořím analogii: Hlava je u mne 
 
 Proč o tom mluvím? Protože stejný princip platí i pro napětí. Představte si, že vezmu obyčejný tužkový monočlánek – typu AA, 1,5 V – a postavím ho na zem záporným pólem (to je ten plochý. Na kladném, to je ten s tím hrbolkem, by nestála, to dá rozum). Tím vznikne spojení mezi zemí a záporným pólem baterie. Kladný pól tedy bude mít potenciál 1,5 voltu proti zemi. Když vezmu druhou baterii stejného typu a postavím ji na tu první, tak potenciál jejího kladného pólu bude + 3 volty proti zemi. Kdybych to celé postavil obráceně, bude mít volný pól potenciál - 3 volty.
 
-![064-1.png](images/000226.png)
+![064-1.png](../images/000226.png)
 
 [eknh.cz/tribat](https://eknh.cz/tribat)

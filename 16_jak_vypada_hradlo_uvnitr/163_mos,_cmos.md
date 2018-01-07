@@ -6,7 +6,7 @@ N-MOS se spíná pozitivním napětím řídicí elektrody (gate) proti společn
 
 Pokud se v logickém prvku zkombinovaly obě tyto technologie, vznikl CMOS (Complementary MOS).
 
-![196-1.png](images/000262.png)
+![196-1.png](../images/000262.png)
 
 Vidíte, že díky použití dvou rozdílných tranzistorů, které jsou zapojené „proti sobě“, získáváme téměř ideální invertor, kterým v klidovém stavu neteče téměř žádný proud. Spotřeba je tedy nula nula nic. Ovšem – jen teoreticky. V praxi je vlivem technických nedokonalostí a parazitních kapacit situace spíš takováto:
 

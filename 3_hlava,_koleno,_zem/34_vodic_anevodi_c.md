@@ -4,7 +4,7 @@ Z běžného života víte, že některé látky elektřinu vedou – říkáme 
 
 Jak vlastně ta elektřina vodičem putuje? Představme si běžný drát, třeba železný nebo měděný. V něm je velké množství volných elektronů, které jsou rovnoměrně rozptýlené. Teď připojíme vodič jedním koncem na záporný pól baterie. Jak víme, záporný pól má nadbytek elektronů. Ty se budou tlačit do vodiče, a protože se částice se stejným nábojem odpuzují, budou před sebou tlačit volné elektrony, co jsou uvnitř drátu. Na druhém konci vodiče tedy vznikne zase přebytek elektronů, a ten se stane „záporným“. Pokud tento konec připojíme ke kladnému pólu a _uzavřeme tak obvod_, přejdou elektrony na kladný pól, kde jich je nedostatek.
 
-![066-1.png](images/000234.png)
+![066-1.png](../images/000234.png)
 
 Průtok elektronu vodičem. Každý urazí jen krátkou dráhu, ale rychlost šíření informace je obrovská.
 

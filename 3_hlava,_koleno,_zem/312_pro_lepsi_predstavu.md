@@ -18,4 +18,4 @@ Proud začne procházet, a u elektrod se budou tvořit bublinky plynů. U zápor
 
 Pro člověka není nebezpečné ani tak napětí, jako proud, který prochází tělem. Navíc lidská kůže má tu vlastnost, že její odpor není konstantní, mění se v závislosti na napětí. Nízkému napětí klade vyšší odpor, jak napětí roste, tak se odpor snižuje. Za bezpečné bývá považované napětí do 24 voltů, které člověka sice zabrní, ale neuškodí. Napětí 230 voltů, které je v zásuvkách, už může být za jistých okolností smrtící. Některé elektrické paralyzéry vytvářejí napětí v řádech tisíců voltů, ale s malým proudem, takže rána je velmi citelná, člověk je na chvíli ochromen, může upadnout do bezvědomí, ale díky malému proudu není takový zásah pro zdravého jedince smrtící.
 
-![075-1.png](images/000194.png)
+![075-1.png](../images/000194.png)

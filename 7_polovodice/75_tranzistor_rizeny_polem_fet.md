@@ -10,7 +10,7 @@ Teď si ale představte, že tento kanál omezíte. Někde v polovině vytvoří
 
 Když bude na G kladnější napětí než na S, tranzistor bude otevřený.
 
-![94-1.png](images/000212.png)
+![94-1.png](../images/000212.png)
 
 CC-BY-SA, autor Chautube, Wikimedia
 
@@ -20,6 +20,6 @@ Napětí, při kterém se tranzistor JFET zcela uzavře, bývá mezi - 0,5 V a -
 
 Když zaměníte polovodiče P a N, stvoříte JFET typu P (dosud jsme si popisovali JFET-N). Jeho funkce bude stejná, jen logika obrácená: tranzistor se bude zavírat kladnějším napětím na elektrodě G.
 
-![95-1.png](images/000023.png)
+![95-1.png](../images/000023.png)
 
 Všimněte si, že z popisu funkce vyplývá, že vlastně není rozdíl mezi elektrodami S a D. A ono to tak je: když tranzistor zapojíte obráceně (prohodíte S a D), tak _teoreticky_ bude fungovat úplně stejně. U některých JFET to tak funguje doopravdy. V praxi ale mezi těmito elektrodami bývá rozdíl, například ve velikosti a tloušťce, ale některé typy mají opravdu S a D zaměnitelné.

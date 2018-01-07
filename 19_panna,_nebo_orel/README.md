@@ -10,7 +10,7 @@ Zapojení bude jednoduché. Budou tam dvě LED, a bude svítit vždy jen jedna z
 
 Zařízení samozřejmě nemusíme používat nezbytně nutně jen na házení mincí. Hodí se třeba i pro chovatele Schrödingerovy kočky, kde poměrně kvalitně simuluje otvírání krabice, a pro spoustu dalších zásadních životních rozhodnutí. Sice nedokáže simulovat stav „mince padla na hranu“, „mince zapadla mezi prkna v podlaze“ a „mince zůstala viset ve vzduchu“, ale na hrubou náhradu to jistě stačí.
 
-![232-1.jpeg](images/00051.jpeg)
+![232-1.jpeg](../images/00051.jpeg)
 
 Tak. Princip máme. Jak to teď celé poskládat? Vyjdeme od konce, tedy od těch zobrazovacích LEDek. Je potřeba, aby zůstávaly v jednom ze dvou stavů. Tady by se hodilo mít třeba něco jako – jo, něco jako klopný obvod D, který má dva výstupy, Q a /Q, které jsou vždy takříkajíc „v opozici“. No a k nim připojíme ty dvě LED, jednu z nich označíme „panna“ a druhou „orel“ (ti, co si staví Schrödingerovu krabici, si LED označí „živá číča“ a „mrtvá číča“).
 

@@ -10,13 +10,13 @@ Pojďme si nejdřív postavit „binární kostku“. Výstup budeme zobrazovat 
 
 Tip: Nemusíte vždy stavět oscilátor z obvodu 7404, rezistoru a kondenzátoru. Pro tyto testy můžete použít Arduino a jednoduchý příklad Blink. Z pinu 13 (nebo z kteréhokoli jiného) si můžete odebírat potřebný signál, jehož frekvenci i střídu nastavíte pomocí konstant delay(). V takovém případě je nejlepší brát napájecí napětí přímo z Arduina. Pokud budete zbytek obvodu napájet jiným zdrojem, nezapomeňte spojit vodivě zemní napájecí vodiče pro oba obvody!
 
-![249-1.png](images/000188.png)
+![249-1.png](../images/000188.png)
 
 Použijte obvod 7404 a obvod 7493\. Když zvolíte velkou kapacitu C1 a velký odpor R4, bude oscilátor kmitat dost pomalu na to, aby bylo vidět, jak se přepínají stavy na LEDkách. Není to úplně naprosto dokonalá kostka, protože výsledek musíte číst binárně, ale základ máte položený!
 
 Teď můžete zrychlit a zapojit tlačítko. Pokud bude stisknuté, bude čítač rychle střídat hodnoty 0-5\. Jakmile ho pustíte, zůstane na čítači poslední hodnota.
 
-![250-1.png](images/000112.png)
+![250-1.png](../images/000112.png)
 
 Do zapojení jsem přidal i rezistor R5, protože – kdo to ví? Ano? Přesně tak! Bez rezistoru R5 by byl vstup B „ve vzduchu“, pokud by tlačítko nebylo stisknuté. Proto je tam rezistor R5, který v tu dobu na vstup B přivede logickou 0\. Jakmile je tlačítko stisknuté, tak „slabou nulu“ z R5 přebije výstup z oscilátoru. Jak velký ten rezistor má být? No, můžeme to spočítat z výstupních proudů 7404, ale takové „bastličské pravidlo“ říká: _Na místo pullup nebo pulldown dej rezistor 10k, když to bude moc, uber, když málo, přidej._ A věřte nebo ne – pro většinu zapojení to je naprosto vhodná hodnota.
 
@@ -24,7 +24,7 @@ Je to podobné empirické pravidlo, jako je u „rezistoru k LED“. Pokud to ne
 
 Tip: Pokud tuto knihu čtete během studia na technické škole, tak prosím svému vyučujícímu neříkejte, že „tam dáte 10k, protože jste to četli“, pracujte tak, jak po vás vyučující chce, a správnou hodnotu si spočítejte! Totéž platí, pokud budete navrhovat a oživovat složitější zapojení. Ovšem pro jednoduché projekty toho typu, jaké si předvádíme my, si vystačíte s výše zmíněnými empirickými pravidly.
 
-![250-2.png](images/000202.png)
+![250-2.png](../images/000202.png)
 
 Takhle nějak by mohlo vaše zapojení „binární kostky“ na nepájivém poli vypadat. Dokud držíte tlačítko, budou lehce svítit všechny LED (ta vpravo víc). Jakmile tlačítko pustíte, uvidíte jeden z šesti možných stavů.
 
@@ -34,7 +34,7 @@ Proč ta vpravo svítí víc? Odpověď se skrývá v binárních číslech. St�
 
 Opravdová hrací kostka není binární. Číslo se ukazuje pomocí kombinace 1 až 6 teček ve známém obrazci.
 
-![251-1.jpeg](images/00117.jpeg)
+![251-1.jpeg](../images/00117.jpeg)
 
 Označíme si jednotlivé tečky (je jich sedm) pomocí písmen, takto:
 
@@ -45,7 +45,7 @@ Označíme si jednotlivé tečky (je jich sedm) pomocí písmen, takto:
 
 Uděláme si další tabulku, aby bylo jasno, co kdy svítí. V tabulce jsem zapsal i binární vyjádření, tedy stavy, které jsou na výstupu čítače 7493.
 
-![tabulka-str-300.png](images/000253.png)
+![tabulka-str-300.png](../images/000253.png)
 
 Všimněte si jedné zajímavé věci. Některé tečky jsou spolu spojené. Třeba vždy, když svítí A, tak svítí i G. Když svítí B, tak svítí i F. No a C svítí vždy společně s E.
 
@@ -111,7 +111,7 @@ Pokud bychom natvrdo spojili dva výstupy, nic by se nestalo – pokud by byly o
 
 Naštěstí máme součástku, která umí zařídit, aby proud tekl jen jedním směrem. Pamatujete? Ano, je to dioda. Takže když mezi výstupy hradel a „bod spojení“ zapojíme diody, zařídíme tím, že proud poteče jen jedním směrem.
 
-![254-1.png](images/000313.png)
+![254-1.png](../images/000313.png)
 
 Máme tu tři hradla U1 až U3, a jejich vývody jsme spojili přes diody. Výsledek je připojen na vstup hradla U4\. Co se teď stane?
 
@@ -129,7 +129,7 @@ Nevýhodou takového zapojení může být třeba to, že na diodách vzniká ú
 
 Zapojme si tedy sedm LED tak, aby dávaly dohromady stejné obrazce, jako jsou na hrací kostce. Využijeme toho, že některé jsou vždy ve stejném stavu (A a G, B a F, C a E) a zapojíme to třeba takto:
 
-![255-1.png](images/000231.png)
+![255-1.png](../images/000231.png)
 
 A teď otázka: Mohu to takto zapojit? Mohu zapojit dvě LED za sebe (sériově)? Brání mi v tom něco?
 
@@ -149,7 +149,7 @@ Pro signál BF musím použít hradlo AND (U2), třeba obvod 7408\. Sloučím si
 
 Signál CE vygeneruju tak, že pomocí hradla AND (U3) spojím signály QB a QC, a výsledek pomocí montážního OR spojím se signálem QD (diody D4, D5).
 
-![256-1.png](images/000317.png)
+![256-1.png](../images/000317.png)
 
 Zde je opravdu na místě použít Schottkyho diody, které mají malý úbytek napětí. Nezapomeňte na to, že kvůli zapojení LED do série potřebujeme na vstupu alespoň 4 volty. Kdybychom použili normální diody s úbytkem 0,7 voltu, bylo by to už dost na hraně.
 

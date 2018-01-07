@@ -6,11 +6,11 @@ PIR jsou pasivní infračervená čidla (proto ta zkratka: Passive Infra-Red), k
 
 Čidlo PIR má čip, citlivý na infračervené záření, před ním filtr, který odfiltruje (alespoň nějaké) cizí zdroje tepla, a okolo je takzvaná Fresnelova čočka, která koncentruje záření z okolí do jednoho bodu. Zároveň dává PIR čidlu charakteristický vzhled:
 
-![217-1.jpeg](images/00094.jpeg)
+![217-1.jpeg](../images/00094.jpeg)
 
 Takovéto moduly jsou dobře dostupné a velmi jednoduché na zapojení. Mají jen tři vývody – zem, napájení (+ 5 voltů) a výstup informace o tom, že se něco děje (Output). Zapojte si nějaké testovací zapojení, třeba takto:
 
-![217-2.png](images/000399.png)
+![217-2.png](../images/000399.png)
 
 A můžete testovat chování. LED normálně nesvítí. Jakmile před čidlem mávnete rukou, nebo se výrazněji pohnete, LED se rozsvítí asi na 1 sekundu. To je celé. Jednoduché, že?
 

@@ -6,6 +6,6 @@ Už víte, že když se číslicový obvod přepíná z jednoho stavu do druhéh
 
 Když se podíváte na desky plošných spojů u starších počítačů, uvidíte to názorně:
 
-![153-1.jpeg](images/00131.jpeg)
+![153-1.jpeg](../images/00131.jpeg)
 
 U každého obvodu je co nejblíž zapojen blokovací kondenzátor – na fotografii jsou hned pod integrovanými obvody.

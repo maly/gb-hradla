@@ -14,6 +14,6 @@ Diody jsou podobné rezistorům – mívají pouzdro, na kterém je napsán typ 
 
 Tranzistory bývají nejčastěji v pouzdrech, které se označují TO-92 nebo TO-220\. TO-220 jsou pouzdra pro výkonové tranzistory, k nimž se připojuje chladič.
 
-![100-1.png](images/000148.png)
+![100-1.png](../images/000148.png)
 
 To, který vývod je báze, který kolektor a který emitor, se u jednotlivých typů liší, proto je vždy důležité podívat se do datasheetu.

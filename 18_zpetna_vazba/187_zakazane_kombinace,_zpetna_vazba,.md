@@ -10,7 +10,7 @@ Na to, abychom takové obvody drželi zkrátka a aby fungovaly tak, jak si před
 
 Nejprve si rozšíříme náš klopný obvod R-S o takzvaný povolovací vstup E (Enable). Uděláme to jednoduše – na vstupy R a S připojíme hradla, která propustí řídicí signály R a S pouze v případě, že vstupní signál E bude log. 1:
 
-![222-1.png](images/000364.png)
+![222-1.png](../images/000364.png)
 
 Vidíte sami – do vlastního klopného obvodu se nedostane nic, pokud je E rovno 0\. Pokud nastavíme E na 1, funguje obvod jako vždycky.
 
@@ -18,10 +18,10 @@ TIP: Tento postup si zapamatujte. Vždy, když potřebujete nějaký vstup, akti
 
 Máme teď hradlo R-S s povolovacím vstupem, ale to nijak neřeší hazardní stav (R = S = 1). Zkuste přemýšlet – jak zařídit, aby nikdy nenastal stav, že R i S budou zároveň v logické 1? Tak samozřejmě, můžeme zapojit mezi oba vstupy hradlo AND, jehož výstup bude zároveň ovládat vstup E tak, že pokud nastane R = S = 1, tak vstup E zavře... Nějak takto:
 
-![222-2.png](images/000408.png)
+![222-2.png](../images/000408.png)
 
 Což je řešení, které téměř nemá chybu. Ve skutečnosti má chybu zásadní, a to tu, že řídicí signál vzniká až v hradle NAND. A hradlo má, jak už víme, nějaké zpoždění, takže hazardní stav R = S = 1 projde přes obě hradla o chviličku dřív, než je stihne nula na výstupu E „zabouchnout“.
 
 Použijeme tedy jiný trik: zrušíme dva vstupy R a S, a budeme používat jen jeden. Ten připojíme na oba vstupy – na vstup S přímo, na vstup R přes invertor. Takový vstup nazveme D (jako že „data“). Pokud bude D = 0, bude S taky rovno 0 a R rovno 1\. Pokud bude D = 1, bude S = 1 a R = 0\. A takto vygenerované signály pošleme do obvodu spolu s povolovacím vstupem E, jak jsme si ho ukázali výše. Výsledkem je obvod, který se označuje jako latch – česky se překládá jako „závora“, ale tenhle pojem se moc neujal, a i v češtině se říká latch, ale vyslovuje se to [leč].
 
-![223-1.png](images/000184.png)
+![223-1.png](../images/000184.png)

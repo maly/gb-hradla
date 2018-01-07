@@ -2,23 +2,23 @@
 
 Z kombinačních obvodů už nám toho k probrání moc nezbývá. Užitečné jsou dekodéry, které berou vstupní informaci, většinou vícebitovou, a převádí ji na nějaký jiný vícebitový kód. Asi nejpoužívanější jsou dekodéry, určené pro připojení sedmisegmentových displejů. Sedmisegmentovky pomocí rozsvěcení určitých segmentů ukazují číslice 0-9 (a s trochou dobré vůle i některá písmena). Jejich segmenty jsou označeny A až G, a to takto:
 
-![172-1.png](images/000106.png)
+![172-1.png](../images/000106.png)
 
 Pokud pečlivě počítáte, zjistíte, že segmentů je osm, a tím osmým je desetinná tečka (DP). Tu ale můžeme teď vypustit a nestarat se o ni.
 
 Pro přenos hodnot 0 až 9 potřebujeme čtyři bity. Čtyři bity dokážou přenést hodnoty 0 až 15\. Otázka je, co s hodnotami 10 až 15\. Nejjednodušší způsob je prohlásit je za zakázané. Výsledný čtyřbitový kód se pak nazývá kód BCD – Binary Coded Decimal, tedy dvojkově kódované desítkové číslo. Dekodér BCD-to-7segment pak pracuje podle následující tabulky:
 
-![172-2.png](images/000177.png)
+![172-2.png](../images/000177.png)
 
 Takové obvody fakt existovaly a existují, například 7447 (za socialismu se vyráběl v NDR pod označením D147D a představoval nejjednodušší způsob, jak vytvořit nějaký displej se sedmisegmentovkami). Ale sedmisegmentovkám se ještě budeme věnovat podrobněji.
 
 Další oblíbené dekodéry jsou 1-z-N, tedy například 1-z-8\. Tento obvod má tři vstupy a osm výstupů (proto se taky někdy označuje jako 3-na-8 – čteme „jeden z osmi“ a „tři na osm“), a aktivní je vždy jen jeden výstup, podle toho, jaká kombinace je na vstupech. Jako příklad nám může posloužit obvod 74LS138.
 
-![173-1.jpeg](images/00293.jpeg)
+![173-1.jpeg](../images/00293.jpeg)
 
 Jeho pravdivostní tabulka je následující:
 
-![tabulka-str-218.png](images/000052.png)
+![tabulka-str-218.png](../images/000052.png)
 
 Můžeme brát vstupy A, B, C jako tříbitovou adresu v rozsahu 0-7 (tedy binárně 000 až 111). Binární „hodnota“ na těchto třech vstupech určuje, který výstup bude aktivní.
 

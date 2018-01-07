@@ -12,95 +12,95 @@ Projděte si nejčastější symboly, s nimiž se setkáte. Za chvíli si o sou�
 
 V tabulce uvádím značky tak, jak jsou v databázi programu Eagle – de facto standardu pro amatérskou tvorbu schémat a desek plošných spojů. A přidávám i anglické názvy, protože se s nimi často setkáte.
 
-![080-1.png](images/000137.png)
+![080-1.png](../images/000137.png)
 
 Vodič (Wire)
 
-![081-1.png](images/000339.png)
+![081-1.png](../images/000339.png)
 
 Křížení vodičů bez spojení (Wire crossing)
 
-![081-2.png](images/000141.png)
+![081-2.png](../images/000141.png)
 
 Spojení vodičů (Junction)
 
-![081-3.png](images/000142.png)
+![081-3.png](../images/000142.png)
 
 Monočlánek (Power cell)
 
-![081-4.png](images/000145.png)
+![081-4.png](../images/000145.png)
 
 Baterie (Battery)
 
-![081-5.png](images/000384.png)
+![081-5.png](../images/000384.png)
 
 Rezistor (vlevo evropský symbol, vpravo americký) (Resistor)
 
-![081-6.png](images/000149.png)
+![081-6.png](../images/000149.png)
 
 Rezistor s proměnným odporem (potenciometr), trimr (Potentiometer, variable resistor)
 
-![081-8.png](images/000400.png)
+![081-8.png](../images/000400.png)
 
 Kondenzátor (vlevo evropský symbol, vpravo americký) (Capacitor)
 
-![082-1.png](images/000153.png)
+![082-1.png](../images/000153.png)
 
 Polarizovaný (elektrolytický) kondenzátor (vlevo evropský symbol, vpravo americký) (Electrolytic capacitor)
 
-![082-2.png](images/000417.png)
+![082-2.png](../images/000417.png)
 
 Cívka (Coil)
 
-![082-3.png](images/000158.png)
+![082-3.png](../images/000158.png)
 
 Transformátor (Transformer)
 
-![082-4.png](images/000016.png)
+![082-4.png](../images/000016.png)
 
 Dioda (Diode)
 
-![082-5.png](images/000162.png)
+![082-5.png](../images/000162.png)
 
 LED (Světlo vyzařující dioda)
 
-![082-6.png](images/000032.png)
+![082-6.png](../images/000032.png)
 
 Schottkyho dioda
 
-![082-7.png](images/000168.png)
+![082-7.png](../images/000168.png)
 
 Bipolární tranzistor NPN (Bipolar Junction Transistor – BJT, NPN type)
 
-![083-1.png](images/000050.png)
+![083-1.png](../images/000050.png)
 
 Bipolární tranzistor PNP (Bipolar Junction Transistor – BJT, PNP type)
 
-![083-2.png](images/000171.png)
+![083-2.png](../images/000171.png)
 
 Tranzistory v Darlingtonově zapojení (Darlington BJT)
 
-![083-3.png](images/000077.png)
+![083-3.png](../images/000077.png)
 
 Tranzistor JFET-N (JFET N-type)
 
-![083-4.png](images/000175.png)
+![083-4.png](../images/000175.png)
 
 Tranzistor MOSFET-N (MOSFET N-channel, N-type)
 
-![083-5.png](images/000108.png)
+![083-5.png](../images/000108.png)
 
 Tranzistor MOSFET-P (MOSFET P-channel, P-type)
 
-![083-6.png](images/000004.png)
+![083-6.png](../images/000004.png)
 
 Spínače a přepínače (Switch, Momentary Switch)
 
-![084-1.png](images/000001.png)
+![084-1.png](../images/000001.png)
 
 Tlačítko (Push button)
 
-![084-2.png](images/000024.png)
+![084-2.png](../images/000024.png)
 
 Napájení, uzemnění (Voltage, Power, Supply; Ground)
 

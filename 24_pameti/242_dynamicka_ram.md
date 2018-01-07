@@ -6,7 +6,7 @@ Statické paměti, tedy takové, které ukládají data v klopných obvodech, js
 
 Dynamická RAM nevyužívá klopný obvod, vystačí si místo toho s jediným tranzistorem MOSFET. Informace je uložena v kondenzátoru. Ten vzniká jako vedlejší efekt izolované řídicí elektrody tranzistoru a jeho kapacita je extrémně malá.
 
-![300-1.png](images/000258.png)
+![300-1.png](../images/000258.png)
 
 Výhoda je jasná: na plochu, kam se vejde jeden klopný obvod statické paměti RAM, se u dynamických vejde násobně víc paměťových buněk.
 

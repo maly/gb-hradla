@@ -4,13 +4,13 @@ Asi nejjednodušší na pochopení je sběrnice SPI (z anglického Serial Periph
 
 U rozhraní SPI je vždy jeden řídicí obvod (Master) a jeden či více periferních obvodů (Slave). Master řídí celou komunikaci a pomocí signálů /SlaveSelect určuje, se kterým periferním zařízením se právě pracuje.
 
-![281-1.png](images/000363.png)
+![281-1.png](../images/000363.png)
 
 Obecně vypadá komunikace tak, že master aktivuje signál /SlaveSelect pro ten obvod, s nímž chce komunikovat, a uvede jej do log. 0 (je to invertovaný signál).
 
 Poté, co je obvod vybraný, začne Master na výstupu SCLK (Serial Clock) posílat hodinové pulsy, a zároveň na výstupu MOSI posílá data od nejnižšího bitu.
 
-![282-1.png](images/000056.png)
+![282-1.png](../images/000056.png)
 
 Jak na straně masteru, tak na straně slave zařízení jsou použity posuvné registry. Master pošle do zařízení požadované informace, nejčastěji příkaz a nějaké parametry, a jakmile skončí přenos, uvede vstup /SlaveSelect opět do neaktivního stavu.
 

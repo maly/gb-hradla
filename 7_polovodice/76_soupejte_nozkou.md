@@ -6,10 +6,10 @@ O statické elektřině jsme si říkali, že má potenciál klidně v řádech 
 
 Vezměte náš senzor s tranzistorem z předchozí kapitoly a tranzistor NPN nahraďte tranzistorem JFET – já použil třeba BF245\. V datasheetu jsem si našel zapojení vývodů (G-S-D), a zapojil jsem vše analogicky: G místo báze, S místo emitoru, D místo kolektoru.
 
-![96-1.png](images/000211.png)
+![96-1.png](../images/000211.png)
 
 Všimněte si, že tentokrát není potřeba se prstem dotýkat. Stačí ho přiblížit dostatečně blízko. Dokonce si, věřte nebo ne, vystačíme s jediným pólem:
 
-![96-2.png](images/000227.png)
+![96-2.png](../images/000227.png)
 
 Klidně použijte vodič s izolací, ani nemusí být „holý“. LED bude změnou jasu reagovat i na pouhé přiblížení ruky.

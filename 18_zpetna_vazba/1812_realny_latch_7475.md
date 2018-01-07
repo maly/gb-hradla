@@ -2,7 +2,7 @@
 
 Myslím, že vás nepřekvapí, když vám prozradím, že i latch existuje v podobě integrovaného obvodu. Ten nejznámější má označení 7475 a obsahuje dvě dvojice latchů, vždy se společným vývodem E pro každou dvojici.
 
-![229-2.png](images/000334.png)
+![229-2.png](../images/000334.png)
 
 Tento obvod má o dva vývody víc, než ty, s nimiž jsme se až doteď setkávali (má pouzdro DIP16, předchozí obvody měly DIP14), a taky nedodržuje pravidlo pro napájení. Ostatní obvody, s nimiž jsme se až dosud potkávali, měly napájení „vpravo dole zem“ a „vlevo nahoře napájení“ – tento obvod to má jinak! Zem je na vývodu 12, napájení na vývodu 5, tedy zhruba uprostřed pouzdra.
 

@@ -68,7 +68,7 @@ U nejnižšího řádu nám stačí, ale už u řádu dvojek budete potřebovat 
 | 1 | 0 | 1 | 1 | 0 |
 | 1 | 1 | 1 | 1 | 1 |
 
-![o221.png](images/000042.png)
+![o221.png](../images/000042.png)
 
 Když se budete na výstupní dvojici CO a S dívat jako na dvoubitové číslo, zjistíte, že jeho hodnota (0 – 3) udává počet jedniček na vstupech A, B, CI. To je zajímavý poznatek, ale vy ho potřebujete převést nějak do řeči hradel. Můžete na to jít od lesa, prohlásit, že Y je vlastně (A XOR B), a pokud je CI = 1, tak je to negované. Schválně, máme takovou funkci, která by dělala něco takového, jako že „S = A pokud B=0, a pokud B=1, tak S = NOT A“? Máme?
 
@@ -80,25 +80,25 @@ Mimochodem, víte, jak jsem psal, že OR se taky označuje jako logický součet
 
 Jediný problém je, jak udělat OR se třemi vstupy. Kupodivu docela jednoduše: A + B + C = (A + B) + C.
 
-![177-1.png](images/000395.png)
+![177-1.png](../images/000395.png)
 
 [eknh.cz/fad](https://eknh.cz/fad)
 
 Tak, a teď je potřeba tohle zopakovat čtyřikrát a získat tak čtyřbitovou sčítačku. Do každé sčítačky zavedete příslušné bity z čísel A a B, a k nim přenos z předchozího řádu. U nejnižšího bude přenos nula, přenos z nejvyššího řádu udělá pátý (nejvyšší) bit výsledku.
 
-![178-1.jpeg](images/00378.jpeg)
+![178-1.jpeg](../images/00378.jpeg)
 
 Všimněte si, že v rámci zjednodušení jsem výše uvedené zapojení sčítačky z elementárních hradel proměnil v „black box“ – prostě obdélníček, na něm je napsáno „toto je sčítačka“, a k tomu popsané vývody. Uvnitř je to ale pořád to původní schéma.
 
 Výsledný obvod je tak složitý, že se nikomu nevyplatí něco takového stavět. Lepší je koupit to už hotové. Co myslíte, udělal to někdo? Odpověď zní: Ano, a má to označení 74283\. Je v pouzdru se šestnácti vývody, a zapojeno je to takto:
 
-![178-2.png](images/000207.png)
+![178-2.png](../images/000207.png)
 
 Cin je vstupní přenos do nejnižšího řádu, Cout výstup do řádů vyšších. Díky tomu je možné dvě sčítačky zapojit paralelně tak, aby vytvořily osmibitovou sčítačku, nebo klidně i vícebitovou. Jediný rozdíl je, že výrobce řády nečísluje od nuly, ale od jedničky (A1-A4). Na funkci to ale nic nemění.
 
 Věřte nebo ne, ale uvnitř je to přesně tak, jak jsme si popsali výš:
 
-![179-1.png](images/000018.png)
+![179-1.png](../images/000018.png)
 
 Můžeme si z toho něco postavit? No jasně, co třeba binární sčítačku?
 

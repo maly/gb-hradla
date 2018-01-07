@@ -4,7 +4,7 @@ Pojďte si zase něco připojit! Jako první si připojíme k Arduinu nějaký s
 
 Zásadní otázka je: Kde LM75A sehnat? Trochu hloupé je, že tento obvod máme k dispozici pouze v pouzdrech pro povrchovou montáž. Ale naštěstí některé e-shopy nabízejí takzvaný „breakout board“ (hledejte „LM75 Breakout“). Vlastně jde o miniaturní destičku, kde je připájený tento obvod, a jsou zde vývody vyvedené tak, aby je bylo možné připojit k nepájivému kontaktnímu poli či propojovacím vodičům.
 
-![286-1.jpeg](images/00083.jpeg)
+![286-1.jpeg](../images/00083.jpeg)
 
 Všimněte si popisků: VCC a GND je napájení, GND zem, tedy záporný pól, VCC kladný pól. SDA a SCL jsou signály sběrnice I2C. Na destičce jsou připojené i pullup rezistory mezi VCC a SDA / VCC a SCL. Což je dobré, nemusíte se o ně starat. Poslední vývod je OS. Co to je?
 

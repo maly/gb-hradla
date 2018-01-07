@@ -4,7 +4,7 @@ _V EduShieldu je použitý speciální druh paměti DS1307 – má pouhých 64 b
 
 Obvod DS1307 je označován jako RTC – Real Time Clock (hodiny reálného času). Obvod se připojuje k zařízení opět pomocí sběrnice I2C a funguje úplně stejně jako výše zmíněná paměť – nabízí 64 adres pro uložení dat. Ovšem prvních osm bajtů má speciální význam:
 
-![tabulka-str-369.png](images/000204.png)
+![tabulka-str-369.png](../images/000204.png)
 
 Při čtení z adresy 00 přečtete vždy sekundy. Nejvyšší bit na adrese 0 se jmenuje Clock Halt, a pokud do něj zapíšete 1, hodiny budou stát. Jakmile do něj zapíšete 0, hodiny se rozběhnou.
 

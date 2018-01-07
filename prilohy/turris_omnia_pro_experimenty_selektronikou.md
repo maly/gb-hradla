@@ -4,7 +4,7 @@ Sdružení CZ.NIC, vydavatel této knihy, vyrábí a dodává routery s označen
 
 Otevřená koncepce vedla konstruktéry k tomu, že u první várky Omnií, připravené především pro kampaň na IndieGoGo, vyvedli některé signály z procesoru na speciální aplikační konektor (viz [www.turris.cz/doc/_media/omnia-pinout.png](https://www.turris.cz/doc/_media/omnia-pinout.png)):
 
-![502-1.jpeg](images/00191.jpeg)
+![502-1.jpeg](../images/00191.jpeg)
 
 Těmito výstupy jsou vybaveny 1 GB modely, v době psaní knihy jsou stále ještě k dispozici. Do budoucna se budou dodávat pouze 2 GB verze.
 

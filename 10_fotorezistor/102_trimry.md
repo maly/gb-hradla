@@ -2,7 +2,7 @@
 
 Celým jménem „potenciometrické trimry“ jsou vlastně potenciometry, tedy rezistory s proměnným odporem, ovšem bez té osy, kterou se dá točit prstem. Místo toho mají jen malý výřez.
 
-![119-1.jpeg](images/00256.jpeg)
+![119-1.jpeg](../images/00256.jpeg)
 
 Takový trimr se nastavuje při oživování zařízení pomocí malého šroubováku. Nastaví se tak, aby zařízení správně fungovalo, a pak se s ním už nehýbe.
 

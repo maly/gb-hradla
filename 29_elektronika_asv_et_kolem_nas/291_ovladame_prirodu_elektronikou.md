@@ -10,13 +10,13 @@ Pro elektromagnety platí vše, co jsem výše napsal o elektromotorech: připoj
 
 Nemáte elektromagnet? Snadná pomoc, stačí kousek izolovaného drátu a hřebík. Omotejte drát okolo hřebíku, a na jeho konce připojte napětí. Hřebík začne fungovat jako magnet.
 
-![321-1.png](images/000337.png)
+![321-1.png](../images/000337.png)
 
 Když celou tuhle sestavu postavíte na výšku tak, že hřebík bude zasunutý třebas jen do třetiny cívky a zapnete proud, cívka vtáhne hřebík dovnitř. Pokud má malou sílu, znásobte počet závitů (třeba naviňte druhou vrstvu přes první.
 
 Mimochodem, pokud máte k dispozici silný neodymový magnet – bývají to takové malé kovové válečky – můžete si pomocí hřebíku (nebo šroubu), monočlánku a kousku drátu udělat jednoduchý motor. Viz obrázek.
 
-![o382.jpeg](images/00377.jpeg)
+![o382.jpeg](../images/00377.jpeg)
 
 Jak to funguje? Procházející proud vyvolá magnetické pole, které se bude, obrazně řečeno, „přetlačovat“ s magnetickým polem magnetu. A protože je celá konstrukce lehká a má jen minimální tření, bude i malé magnetické pole stačit k tomu, aby se vše otáčelo.
 
@@ -40,21 +40,21 @@ Proto se motory (ale i další zařízení s cívkami) připojují k číslicov�
 
 Nejjednodušší budič je obyčejný tranzistor, o němž víme, že malým proudem dokáže spínat velký proud.
 
-![324-1.png](images/000289.png)
+![324-1.png](../images/000289.png)
 
 Další možnost je použít specializovaný obvod (například ULN2803), který obsahuje osm budičů a osm ochranných diod, takže můžete jedním takovým obvodem spínat až osm motorů.
 
-![324-2.jpeg](images/00015.jpeg)
+![324-2.jpeg](../images/00015.jpeg)
 
 Těmito způsoby můžete motor zapnout a vypnout. Pokud jej potřebujete ovládat sofistikovaněji, třeba zapínat v obou směrech otáčení, použijete takzvaný H můstek (H bridge).
 
-![325-1.png](images/000295.png)
+![325-1.png](../images/000295.png)
 
 Toto zapojení umožní připojit motor v obou směrech – buď kombinací S1 + S4, nebo kombinací S2 + S3\. Pokud jsou všechny spínače rozpojené, je motor navolno, pokud jsou sepnuté např. S2 a S4, je motor zabržděn.
 
 Samozřejmě místo spínačů mohou být použité tranzistory, nebo opět specializovaná součástka – integrovaný H můstek. Můžete ho koupit už jako celou desku, i s konektory.
 
-![326-1.jpeg](images/00405.jpeg)
+![326-1.jpeg](../images/00405.jpeg)
 
 Na obrázku vidíte takový integrovaný H můstek, řídicí vstupy od elektroniky a výkonové konektory pro zapojení motorů. U těchto můstků je časté, že vlastní spínací element (integrovaný obvod nebo výkonový tranzistor) má zabudované chladiče.
 
@@ -62,7 +62,7 @@ Na obrázku vidíte takový integrovaný H můstek, řídicí vstupy od elektron
 
 Relé je zase cívka, k níž je přes mechanismus připojena trojice vývodů. Když je cívka (1) bez proudu, jsou spojeny dva z nich (společný a NC). Když cívkou protéká proud, přitáhne k sobě mechanickou kotvu (2), a ta přepne vývody (3) tak, že jsou spojené jiné dva (společný a NO).
 
-![327-1.jpeg](images/00298.jpeg)
+![327-1.jpeg](../images/00298.jpeg)
 
 CC-BY-SA, autor Teslaton
 
@@ -78,7 +78,7 @@ Další spínací prvky, podobné relé, ovšem bez výhody elektrického odděl
 
 Často používaným zapojením tranzistorů pro spínání velkých proudů je takzvané Darlingtonovo zapojení. Už jsme si jej představili, pro připomenutí schéma:
 
-![372-2.png](images/000201.png)
+![372-2.png](../images/000201.png)
 
 Takto zapojená dvojice tranzistorů se chová jako jeden tranzistor s mnohem větším proudovým zesilovacím činitelem, tedy dokáže velmi malými proudy spínat velmi velký proud. Výše zmíněný obvod ULN2803 používá vnitřně právě takovéto tranzistory v Darlingtonově zapojení.
 
@@ -90,11 +90,11 @@ Dřív se často používaly i spínací prvky tyristory a triaky. Principiáln�
 
 Servo je speciálně upravený elektromotor se zpětnou vazbou a soustavou převodů, které se otáčí v rozsahu 240° (někdy 180°, někdy i 360°). Často se s nimi potkáte v různých hobby robotech, kde pohybují rameny, popřípadě v modelech, kde nastavují například křidélka nebo kormidlo u lodi. Výhodou serva je možnost přesně nastavit natočení osy.
 
-![328-1.jpeg](images/00221.jpeg)
+![328-1.jpeg](../images/00221.jpeg)
 
 Servo mívá tři vstupy – zem, napájecí napětí a řídicí vstup. Serva se řídí pomocí PWM signálu, kde šířka pulsu určuje natočení osy:
 
-![329-1.jpeg](images/00301.jpeg)
+![329-1.jpeg](../images/00301.jpeg)
 
 K ovládání serv se používají specializované obvody, které mají rozhraní (např.) I2C a dokážou ovládat až 16 serv. Opět platí, že takové obvody často seženete jako hotové moduly i s konektory.
 
@@ -102,7 +102,7 @@ K ovládání serv se používají specializované obvody, které mají rozhran�
 
 Krokový motor je vlastně obyčejný elektromotor, který má vyvedené jednotlivé cívky. Ovládací elektronika postupně spíná jednu po druhé a tím otáčí osou po malých krocích.
 
-![329-2.jpeg](images/00309.jpeg)
+![329-2.jpeg](../images/00309.jpeg)
 
 Ve skutečnosti mívají takové motory třeba 200 kroků na jednu otáčku. Krokové motory se používaly třeba v tiskárnách pro přesný posun vozíku. Dnes se používají ve 3D tiskárnách, kde zaručují totéž: přesný posun předmětu a trysky.
 
@@ -120,7 +120,7 @@ U výkonnějších zdrojů světla počítejte s nutností chlazení. I když js
 
 Zajímavá součástka, která je i v EduShieldu, je RGB dioda. Jde vlastně o tři barevné LED (červená, zelená, modrá) v jednom pouzdru, buď se společnou anodou, nebo se společnou katodou. Taková součástka může měnit barvu vyzařovaného světla v širokém rozmezí – například smícháním červeného a zeleného světla získáte světlo žluté apod. RGB LED se používají v různých barevných displejích nebo v osvětlovacích páskách.
 
-![330-1.jpeg](images/00303.jpeg)
+![330-1.jpeg](../images/00303.jpeg)
 
 V EduShieldu je použito zapojení se společnou anodou. Znamená to, že společný vývod je připojen k napájecímu napětí a k tomu, aby se dioda rozsvítila, je zapotřebí připojit vstupy R, G, B k zemi (logická úroveň 0).
 
@@ -130,7 +130,7 @@ Zajímavá součástka je Peltierův článek. Ten využívá takzvaného Peltie
 
 Když budete teplou část chladit větrákem, můžete na chladné snadno dosáhnout teplot pod bodem mrazu, a obráceně – když budete zahřívat chladnou část, dosáhnete na teplé snadno bodu varu. Peltierův článek se označuje též TEC – Thermoelectric Cooler.
 
-![331-1.png](images/000411.png)
+![331-1.png](../images/000411.png)
 
 Topit můžete ale i jinak. Většinou tam, kde to nepotřebujete a nechcete (integrované obvody, tranzistory, rezistory). Takové teplo ale není moc užitečné. Pokud potřebujete něco ohřívat, zvolte topnou spirálu. Ano, stejnou, jaká je v elektrických vařičích, rychlovarných konvicích a podobných spotřebičích. Topná spirála je obyčejný drát z kovové slitiny s daným odporem, stočený do spirály (někdy i vícenásobně) a izolovaný. Pokud tímto rezistorem prochází proud, mění se v teplo (vzpomeňte na Ohmův zákon a vzorec pro výpočet výkonu).
 
@@ -140,7 +140,7 @@ Pokud budete něco z toho ovládat číslicovými obvody, tak vždy přes relé.
 
 Reproduktor slouží k přeměně elektrického proudu na zvuk. Zvuk, jak asi víte, je mechanické vlnění, které se šíří hmotou, včetně vzduchu. K tomu, aby vznikl zvuk, je zapotřebí mechanického chvění nějakého předmětu – třeba struny, blány (u bubnu), jazýčku u pískacích hraček, popřípadě vzduchového sloupce (píšťaly). U reproduktoru se chvěje tenká papírová membrána. Chvění vzniká tak, že k membráně je připevněná cívka, která je umístěna mezi silné magnety. Když se mění proud cívkou, mění se její magnetické pole, cívka je více či méně zatahována do magnetu, a vzniká tak chvění, které se přenáší na membránu, a membránou do vzduchu.
 
-![332-1.png](images/000305.png)
+![332-1.png](../images/000305.png)
 
 CC-BY-SA, autor Iain
 

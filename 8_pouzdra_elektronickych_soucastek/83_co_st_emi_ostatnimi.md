@@ -4,7 +4,7 @@ Jak jsem už psal – u moderních součástek bývá časté, že je výrobce n
 
 Mnohé součástky, především senzory, jsou díky tomu dostupné i pro domácí kutily.
 
-![102-1.jpeg](images/00190.jpeg)
+![102-1.jpeg](../images/00190.jpeg)
 
 ### 8.3.1 Praktické tipy {#8-3-1-praktick-tipy}
 

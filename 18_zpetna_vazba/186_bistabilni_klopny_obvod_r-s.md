@@ -2,11 +2,11 @@
 
 Můžeme v našich experimentech se zaváděním zpětné vazby pokračovat. Zkusíme to s dvouvstupovým hradlem, kdy do jednoho vstupu zapojíme výstup hradla, a na druhý budeme přivádět log. 1\. Moc zajímavé to není. Co si takhle vzít dvě hradla a zapojit je křížem? Nějak takhle
 
-![219-1.png](images/000122.png)
+![219-1.png](../images/000122.png)
 
 Zapojte si obvod 7402 podle tohoto schématu. Pozor – obvod má jinak vstupy a výstupy hradel, než má 7400! Podívejte se do datasheetu nebo na následující obrázek:
 
-![219-2.png](images/000218.png)![219-3.png](images/000140.png)![219-4.png](images/000306.png)
+![219-2.png](../images/000218.png)![219-3.png](images/000140.png)![219-4.png](images/000306.png)
 
 Nyní pozor, opět bude přemýšlení. Zkusíme si tak nějak z hlavy zjistit stav na výstupu hradla NOR1\. Dejme tomu, že vstup, označený Reset, je v log. 0\. Co bude na výstupu z hradla? To záleží na hodnotě druhého vstupu, a ten je připojený na výstup hradla NOR2\. Jeho hodnota záleží na tom, co je na vstupu Set (dejme tomu, že i tam je 0) a na tom, co je na druhém vstupu... který je připojený na výstup NOR1... který... a jsme v nekonečné smyčce…
 

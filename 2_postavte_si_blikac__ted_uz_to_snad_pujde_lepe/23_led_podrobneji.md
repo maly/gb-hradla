@@ -2,7 +2,7 @@
 
 Nejjednodušší způsob, jak to udělat, je použít LED. LED je součástka, která za určitých podmínek mění procházející elektrický proud na světlo. Nejčastější typ LED vypadá jako takový malý klobouček s dvěma vývody.
 
-![056-1.jpeg](images/00107.jpeg)
+![056-1.jpeg](../images/00107.jpeg)
 
 Všimněte si několika věcí:
 
@@ -14,7 +14,7 @@ Všimněte si několika věcí:
 
 Dioda je součástka, která má dva vývody, a protože se bavíme jako elektronici, tak si budeme pamatovat, že vývody jsou připojené k elektrodám, které se jmenují _katoda_ (což je záporná elektroda) a _anoda_ (to je kladná elektroda – mnemotechnická pomůcka: _kladná_ elektroda tam má to _ano_, a ti, co umí rusky, vědí, že _da_ znamená _ano_). Seříznutá hrana označuje _katodu_. Katoda je ten větší útvar uvnitř diody. Ten druhý vývod, bez seříznuté hrany a s menším útvarem, to je kladná elektroda, anoda. (_Další mnemotechnická pomůcka: delší vývod si můžete zkrátit a ten ucvaknutý kousek přeložit napříč, abyste získali „+“_)
 
-![056-2.jpeg](images/00110.jpeg)
+![056-2.jpeg](../images/00110.jpeg)
 
 Zapojte anodu na výstup číslo 6 integrovaného obvodu. Asi není dobrý nápad ji strkat přímo na místo. Dejte si ji kousek stranou, do jiné řady vývodů, a anodu propojte s vývodem 6 nějakým vodičem.
 
@@ -48,7 +48,7 @@ Máte? Ještě jednou si to prosím překontrolujte podle výše uvedeného post
 
 11. Zdroj 5 V zapojený správně, nepřepólovaný.
 
-![058-1.jpeg](images/00193.jpeg)
+![058-1.jpeg](../images/00193.jpeg)
 
 Zapněte napájení.
 

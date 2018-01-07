@@ -4,4 +4,4 @@ Rezistor spolu s kondenzátorem a cívkou tvoří základní trojici součástek
 
 Rezistor je diskrétní součástka se dvěma vývody, jejíž zásadní vlastností je, že klade odpor procházejícímu proudu. Rezistory se vyrábějí v různých velikostech, pro naše účely postačí ty nejmenší. Pokud je třeba, aby rezistorem procházely vyšší proudy (a tím byly vyšší tepelné ztráty), musíte použít rezistory s velkým _ztrátovým výkonem_.
 
-![109-1.jpeg](images/00269.jpeg)
+![109-1.jpeg](../images/00269.jpeg)

@@ -12,7 +12,7 @@ V pravé části grafu je dioda zapojená v dopředném – průchozím směru. 
 
 V závěrném směru, tedy vlevo od svislé osy, prochází velmi malý proud. V bodě VBR (Breaking Voltage, průrazné napětí) se dioda zničí, „prorazí“, a přestane fungovat. Dopředné napětí bývá nízké, okolo desetin až nízkých jednotek voltů, průrazné je o řády větší – podle typu třeba 50 voltů, ale i 1000.
 
-![104-1.png](images/000215.png)
+![104-1.png](../images/000215.png)
 
 Speciální variantou diody je Zenerova dioda. Ta se při určitém napětí v závěrném směru „prorazí“, ale vratně. Proto se používá ke stabilizaci či přepěťové ochraně. Jakmile napětí překročí danou mez, dioda se otevře, vede proud, a tím snižuje napětí.
 

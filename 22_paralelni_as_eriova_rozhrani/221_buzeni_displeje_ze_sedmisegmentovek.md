@@ -4,7 +4,7 @@ Když to vezmete kolem a kolem, je takový displej ze sedmisegmentovek velice n�
 
 Ve skutečnosti se ale takto vícemístné sedmisegmentovky nezapojují. Zapojují se tak, že mají spojené všechny segmentové vstupy (a-g a tečku), tedy 8 vývodů, a pak jsou vyvedené společné anody / katody pro každou pozici. Nějak takto:
 
-![275-1.png](images/000404.png)
+![275-1.png](../images/000404.png)
 
 Pro N pozic stačí tedy 8 + N vývodů – pro čtyřmístný displej 12.
 
@@ -12,7 +12,7 @@ Na používání takového displeje musí být určitý trik. Je jasné, že nem
 
 Technická poznámka: pro buzení takových displejů je vhodné použít tranzistorový budič. Pokud každý segment chce proud třeba 5 mA , tak vám při rozsvícené „osmičce“ poteče společným vývodem 35 mA, a to je víc, než je většina jednočipů schopna a ochotna poskytnout.
 
-![276-1.jpeg](images/00353.jpeg)
+![276-1.jpeg](../images/00353.jpeg)
 
 Co dělat v situaci, kdy:
 

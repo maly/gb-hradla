@@ -2,15 +2,15 @@
 
 Do tohoto okamžiku jsem tak nějak mlčky předpokládal, že když má oscilátor frekvenci 1 Hz, tak že to znamená nejen to, že každý kmit (tj. logická 0 a logická 1) trvá jednu sekundu, ale i to, že jsou obě hodnoty stejně dlouhé, totiž že je půl sekundy logická 0 a půl sekundy logická 1\. Nějak takhle:
 
-![234-1.png](images/000361.png)
+![234-1.png](../images/000361.png)
 
 Jenže ona to nemusí být pravda. Co když to bude vypadat třeba takhle? Čtvrtinu sekundy logická 1, tři čtvrtiny 0\. Stále platí, že frekvence je 1 Hz – náběžné hrany pulsů přicházejí po sekundě jako předtím, ale výsledek vypadá jinak:
 
-![235-1.png](images/000054.png)
+![235-1.png](../images/000054.png)
 
 A co teprve takovýhle signál?
 
-![235-2.png](images/000382.png)
+![235-2.png](../images/000382.png)
 
 Taky náběžná hrana každou sekundu, ale signál je v logické jedničce jen mizivý zlomek sekundy. Kdybyste svůj generátor „panna-orel“ krmili takovýmto signálem, co by tak asi vyšlo? Správně, padala by pořád jen jedna hodnota.
 

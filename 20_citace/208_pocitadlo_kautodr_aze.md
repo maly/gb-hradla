@@ -10,13 +10,13 @@ Když světlem, tak jak? Buď můžete vzít LED, tu dát na jednu stranu dráhy
 
 Druhá možnost je použít takzvané reflexní snímače, známé též pod označením „detektory přiblížení“ (anglicky „optical reflective sensor“, případně „line tracking sensor“ – třeba typ TCRT5000). Technicky to je LED a fototranzistor v jednom bloku:
 
-![265-1.jpeg](images/00323.jpeg)
+![265-1.jpeg](../images/00323.jpeg)
 
 Pokud nemáte autíčka úplně černá, tak fototranzistor zachytí světlo, odražené od jeho povrchu, a dokáže tak detekovat průjezd.
 
 Zapojení takového snímače je jednoduché: LED připojte přes rezistor k napájecímu napětí. Fototranzistor zapojte podobně jako tlačítko, tedy kolektor přes pull-up rezistor cca 10 kΩ k napájecímu napětí, emitor k zemi, a výsledek odebírejte z kolektoru. Na výstup dejte, kvůli snazšímu zpracování signálu, Schmittův klopný obvod (třeba v invertoru 7414).
 
-![266-1.png](images/000333.png)
+![266-1.png](../images/000333.png)
 
 Za normálního stavu LED svítí, ale na fototranzistor nic nedopadá. Fototranzistor je tedy zavřený, na vstup invertoru jde přes rezistor 10k napájecí napětí, tedy log. 1, a na výstupu je logická 0\. Jakmile se před senzor dostane autíčko, LED osvítí jeho povrch, odražené světlo sepne fototranzistor, tím se na vstup Schmittova obvodu dostane zem, a na výstupu bude 1.
 
@@ -28,7 +28,7 @@ Plni nadšení ho jdete koupit, a zjistíte, že ho pravděpodobně neseženete.
 
 Podobný obvod se ale stále vyrábí v CMOS řadě 40xx, tentokrát s označením CD4026\. V pouzdru DIP16 je desítkový čítač, dekodér a budič.
 
-![267-1.png](images/000344.png)
+![267-1.png](../images/000344.png)
 
 Vstup 1 slouží k přivedení vstupních pulsů. Vstup 2 (clock inhibit) slouží k přerušení čítání. Připojte ho na zem (nechceme přerušovat). Vstup 3 (display enable) slouží ke zhasínání displeje. Nechceme, proto jej připojte na napájecí napětí. Výstup 4 nechte být (odpovídá hodnotě na vstupu 3), výstup 5 taky (pokud nebudete dávat dva čítače za sebe, abyste získali vícemístné počítadlo). Vývody 6, 7, 9, 10, 11, 12, 13 odpovídají jednotlivým segmentům LED sedmisegmentovky, Vss je zem a Vdd je napájení (CMOS můžete napájet až 15 volty). Vstup 15 je RESET, ten si připojte přes tlačítko na napájecí napětí, a k němu pulldown rezistor. Získáte tak možnost vynulovat počítadlo. Vývod 14 ponechte být.
 

@@ -2,7 +2,7 @@
 
 Zkuste udělat následující obvod:
 
-![094-1.png](images/000105.png)
+![094-1.png](../images/000105.png)
 
 Vidíte dva rezistory, zapojené „za sebou“ – tedy sériově. Proud teče od kladného pólu baterie (taková je konvence, vzpomeňte si) horním vodičem do rezistoru R1, skrz něj do rezistoru R2, a z něj spodním vodičem k zápornému pólu baterie.
 

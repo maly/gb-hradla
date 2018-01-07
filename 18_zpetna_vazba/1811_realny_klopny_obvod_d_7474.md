@@ -12,7 +12,7 @@ Samozřejmě že máme k dispozici popsaný klopný obvod typu D jako součástk
 
 Schematická značka to celé hezky ilustruje:
 
-![226-1.png](images/000198.png)
+![226-1.png](../images/000198.png)
 
 Vidíte dva vstupy D a C (ten má funkci hodin), vstupy PRE a CLR (negované) a dva výstupy, Q a /Q.
 
@@ -20,7 +20,7 @@ Všimněte si: u podobných obvodů se nekreslí napájení. Samozřejmě, že o
 
 Schéma vnitřního zapojení je ve skutečnosti o něco složitější než je výše uvedený „latch“ – to proto, aby obvod reagoval opravdu jen na přepnutí z 0 do 1, a ne na jiné události:
 
-![227-1.jpeg](images/00217.jpeg)
+![227-1.jpeg](../images/00217.jpeg)
 
 Naštěstí se zapojením nemusíte zabývat. Vám stačí znát funkční tabulku:
 
@@ -50,7 +50,7 @@ Poslední tři řádky popisují situaci, kdy jsou asynchronní vstupy v klidu (
 
 Reálná součástka je v pouzdře DIL se 14 vývody, které jsou zapojeny takto:
 
-![229-1.png](images/000046.png)
+![229-1.png](../images/000046.png)
 
 A protože jsou uvnitř dva nezávislé klopné obvody, jsou i všechny vstupy a výstupy v obvodu dvakrát. Při pohledu shora vidíte vlevo vývody obvodu 1 postupně pod sebou: /CLR, D, CLK, /PRE, Q a /Q. Vpravo je totéž pro obvod 2.
 

@@ -10,7 +10,7 @@ Jak zajistíte to přepnutí? Dáte za sebe dva invertory, to je takový jednodu
 
 No a přepnutí přepínače do druhé polohy vybije kondenzátor k zemi. Nějak takto.
 
-![150-1.png](images/000125.png)
+![150-1.png](../images/000125.png)
 
 Čím větší odpor na vstupu a kapacita kondenzátoru, tím delší bude prodleva. Když zvolíte rezistor kolem 100 kΩ a kondenzátor třeba 10 µF, tak bude prodleva necelou sekundu. Jenže!
 

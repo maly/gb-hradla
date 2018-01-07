@@ -4,7 +4,7 @@ Asi nejsložitější obvody, které můžete stvořit kombinační technikou, j
 
 Reálným příkladem takového obvodu je obvod 74181\. Tento obvod zpracovává dva čtyřbitové vstupy (A0-A3 a B0-B3) a nabízí sadu funkcí pro sčítání, odčítání, logické operace či posuny, a to s přenosem i bez přenosu. Funkce se vybírají pomocí čtyřbitového řídicího vstupu S0-S3\. Pro zajímavost se podívejme na schéma:
 
-![180-1.png](images/000187.png)
+![180-1.png](../images/000187.png)
 
 CC BY-SA 3.0, Link
 
@@ -12,7 +12,7 @@ Sčítání dvou čísel zabralo tomuto obvodu 22 nanosekund. Verze „Schottky�
 
 Funkce se volily jednak pomocí výběru S0-S3 a dále pak vstupem, který přepínal logické a aritmetické instrukce (M). Obvod pracoval buď v normálním režimu, nebo v negovaném. Za normálního režimu dokázal následující operace (Cn je přenos z nižšího řádu):
 
-![181-1.jpeg](images/00225.jpeg)
+![181-1.jpeg](../images/00225.jpeg)
 
 Násobení nevedeme... Násobilo se buď postupně, nebo existovala hardwarová násobička – velmi specializovaná součástka. Pro vícebitové operace se zapojovalo několik těchto obvodů vedle sebe a propojovaly se pomocí přenosu Cn. Protože zpoždění signálu mohlo ovlivnit výsledek, používal se obvod 74182 pro „předvídání přenosu“.
 

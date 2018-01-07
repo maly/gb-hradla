@@ -10,7 +10,7 @@ Tyto součástky jsem už popisoval, tak jen pro pořádek připomenu: Jedná se
 
 Tlačítko potřebuje, aby člověk vyvinul nějaký tlak prstem a mechanicky tak posunul spínací element do požadované polohy. Existují ale obvody, které reagují na přiblížení či dotyk. Nejčastěji jsou postavené jako kondenzátor, a princip jejich funkce je ten, že přiblížení prstu vyvolá změnu kapacity.
 
-![333-1.jpeg](images/00095.jpeg)
+![333-1.jpeg](../images/00095.jpeg)
 
 ### 29.2.3 Světlo – fotorezistor, fotodioda, line tracking {#29-2-3-sv-tlo-fotorezistor-fotodioda-line-tracking}
 
@@ -18,13 +18,13 @@ Princip fotorezistoru jsem už probíral. Citlivější a rychlejší snímání
 
 Pokud potřebujete z nějakého důvodu oddělit dva obvody od sebe, můžete využít takzvaný _optocoupler_. Česky se používá termín _optočlen_. Jde o součástku, která v jednom pouzdru integruje LED a fototranzistor. LED funguje tak, jak jste zvyklí, a intenzita jejího světla otvírá nebo zavírá fototranzistor.
 
-![333-2.png](images/000311.png)
+![333-2.png](../images/000311.png)
 
 Optické oddělovače se používají například u dlouhých datových vedení, kde není zajištěno, že budou obvody na obou koncích připojené ke stejné úrovni země, a při prostém propojení by hrozilo zničení velkým proudem.
 
 Dvojice LED – Fototranzistor se používá třeba i v detektorech přiblížení nebo ve světelných závorách. U snímačů přiblížení se obě součástky umístí vedle sebe. LED vysílá pravidelné pulsy, a pokud se přiblíží nějaký předmět, který dostatečně odráží světlo (třeba i prst), odrazí se puls i do fototranzistoru.
 
-![334-1.jpeg](images/00210.jpeg)
+![334-1.jpeg](../images/00210.jpeg)
 
 Samozřejmě takový detektor nebude moc fungovat, pokud k němu přiblížíte černé těleso, které, jak známo, moc světla neodráží (proto je ostatně černé). Tento efekt se používá například u robotů, kteří dokážou sledovat nakreslenou čáru. Robot svítí před sebe na zem, a několik fototranzistorů snímá odražené světlo. Pokud se neodráží žádné, znamená to, že u daného fototranzistoru je pravděpodobně nakreslená černá vodicí čára.
 
@@ -74,7 +74,7 @@ Zajímavý doplněk jsou senzory relativní vlhkosti. Jejich princip je jednoduc
 
 Jednu z možností, jak měřit vzdálenost, jsme si už ukazovali – bylo to měření vzdálenosti pomocí ultrazvuku. Na podobném principu pracují i takzvané Time-of-Flight (ToF) senzory, ovšem místo (ultra)zvuku používají světelný paprsek. Jenže světlo letí mnohem rychleji, tak i přesnost měření musí být o hodně vyšší. Naštěstí zase existují součástky, které vše potřebné zařídí za vás.
 
-![337-1.jpeg](images/00248.jpeg)
+![337-1.jpeg](../images/00248.jpeg)
 
 ToF senzor je ta černá obdélníková součástka uprostřed, ta se dvěma malými otvory.
 
@@ -98,7 +98,7 @@ Co bylo před dvaceti lety fantazií ze stránek populárně-naučných magazín
 
 Takové přijímače nejsou úplně nejlevnější, stojí i několik set korun, ale jsou bez problémů dostupné i pro amatérské konstrukce. Navíc mnohé z nich dokáží využít kromě amerického systému GPS i ruský Glonass a evropský Galileo.
 
-![338-1.jpeg](images/00049.jpeg)
+![338-1.jpeg](../images/00049.jpeg)
 
 Připojení takových přijímačů je navíc extrémně jednoduché, protože naprostá většina z nich používá jednosměrné sériové rozhraní UART s rychlostí přenosu 4800 Bd. Přijímač posílá neustále informace o pozici a dalších hodnotách pomocí takzvaného protokolu NMEA. Jedná se o velmi jednoduchý protokol, co řádek, to informace. Přijímač posílá různé typy informací, ta, která vás asi bude zajímat nejvíc, začíná znaky „$GPRMC“ a za nimi je 11 hodnot, oddělených čárkami. Například takto:
 
@@ -128,7 +128,7 @@ Kromě vět GPRMC posílá přijímač i další (GPGSA – seznam dostupných d
 
 Zajímavé čidlo, kterým tento přehled uzavřu, je pasivní infračervené čidlo pohybu (Passive Infra Red – PIR). Čidla PIR jsou nápadná svým zakrytováním – ve skutečnosti jde o Fresnelovu čočku, která zaostřuje infračervené záření z okolí na snímací prvek. Vlastní element je zase polovodičová součástka, která je citlivá na infračervené světlo. To vyvolává změnu napětí, ta je detekována citlivým tranzistorem typu FET a dále zpracovávána.
 
-![339-1.jpeg](images/00351.jpeg)
+![339-1.jpeg](../images/00351.jpeg)
 
 PIR se používají pro detekci toho, že je nablízku člověk. Lidské tělo totiž vyzařuje, jako každý teplý objekt, infračervené záření. U lidského těla má toto záření vlnovou délku 9,4 μm. jsou tedy často používané pro detekci pohybu osob, ať už vítaného (např. u spínání osvětlení v garáži), nebo nevítaného (poplachové systémy).
 

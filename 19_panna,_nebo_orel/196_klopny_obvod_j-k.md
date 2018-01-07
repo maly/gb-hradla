@@ -2,7 +2,7 @@
 
 Nebojte, tento je poslední, a zmíním se o něm jen pro úplnost. Zas tak často se totiž v praxi nepoužívá… Dřív se z těchto obvodů skládaly například čítače, ale dnes už jsou takové obvody dostupné v integrované podobě, takže se s ryzím obvodem J-K skoro nepotkáte.
 
-![240-1.png](images/000073.png)
+![240-1.png](../images/000073.png)
 
 Klopný obvod J-K je vlastně kombinací jednoduchého klopného obvodu R-S a klopného obvodu typu T. Pokud jsou J a K v logické 0, drží obvod svůj stav. Pokud je J = 0 a K = 1, nastaví se obvod do logické 0\. Pokud je J = 1 a K = 0, nastaví se obvod do logické 1\. No a konečně pokud jsou oba vstupy v log. 1, přepne se s každým hodinovým pulsem obvod do opačného stavu, než byl předtím.
 

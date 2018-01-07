@@ -20,7 +20,7 @@ Máte? Teď si zkuste změřit proud, který teče LEDkou, a napětí, jaké na 
 
 Pokud si takový graf nakreslíte, získáte tak něco, čemu se říká „voltampérová charakteristika“. Mně to vyšlo nějak takto:
 
-![102-1.png](images/000196.png)
+![102-1.png](../images/000196.png)
 
 (Vodorovně volty, svisle miliampéry)
 

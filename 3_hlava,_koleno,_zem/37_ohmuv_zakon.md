@@ -8,6 +8,6 @@ Tomuto vztahu se říká Ohmův zákon a je to nejdůležitější pravidlo, kte
 
 Pro snazší zapamatování se někdy používá zápis v trojúhelníku:
 
-![069-1.png](images/000127.png)
+![069-1.png](../images/000127.png)
 
 Stačí si pak jednu veličinu zakrýt, a zbývající dvě řeknou, jak ji spočítáme. U = I . R, I = U / R, R = U / I.

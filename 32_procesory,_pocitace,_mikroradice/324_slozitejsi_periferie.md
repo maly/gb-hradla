@@ -12,7 +12,7 @@ Ta nejzajímavější vlastnost obvodu 8255 je, že je konfigurovatelný. Podle 
 
 Obvod 8251 se používal v osmibitových počítačích spolu s obvodem 8255\. Zatímco 8255 nabízí paralelní rozhraní, 8251 nabízí sériové rozhraní. V kapitole o rozhraních jsme si říkali, že se pro rozhraní RS-232 používaly obvody UART/USART – no a 8251 je právě USART, neboli Univerzální Synchronní / Asynchronní Přijímač a Vysílač (rozuměj: sériových dat).
 
-![360-1.png](images/000279.png)
+![360-1.png](../images/000279.png)
 
 S procesorem komunikuje tento obvod opět přes datovou sběrnici a pomocí řídicích signálů /RD, /WR. Obvod se připojuje na sběrnici ve chvíli, kdy je aktivní vstup /CE. Vstup C/D určoval, jestli se zapisují nebo čtou data (=0), nebo řídicí / stavové informace (=1). V praxi se připojoval k některému z adresních signálů, např. k A0\. Pokud byl obvod adresován například tak, že byl aktivní na adrese 0x20, a vstup C/D byl zapojen na A0, tak se adresou 0x20 přistupovalo do datového registru, adresou 0x21 do řídicího.
 

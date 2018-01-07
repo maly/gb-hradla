@@ -30,6 +30,6 @@ Toto autorské dílo podléhá licenci Creative Commons
 
 a to za předpokladu, že zůstane zachováno označení autora díla a prvního vydavatele díla, sdružení CZ.NIC, z. s. p. o. Dílo může být překládáno a následně šířeno v písemné či elektronické formě na území kteréhokoliv státu.
 
-![logo-cz-nic.png](images/000418.png)
+![logo-cz-nic.png](../images/000418.png)
 
 ##### Poděkování {#pod-kov-n}

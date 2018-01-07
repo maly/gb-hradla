@@ -27,7 +27,7 @@ Možná vidíte pravidelnost ve výsledcích a dokážete si logickou funkci odv
 
 Mapa má tolik políček, aby pokryla všechny kombinace – tedy pro čtyři proměnné to je 16 polí v matici 4 × 4\. Sloupce budou řízené podle proměnných A a B, řádky podle C a D, ovšem platí jedno důležité pravidlo: každý řádek (sloupec) se liší od svých sousedních řádků (sloupců) liší pouze v hodnotě jedné proměnné: 00 – 01 – 11 – 10
 
-![tabulka-str-505-1.png](images/000260.png)
+![tabulka-str-505-1.png](../images/000260.png)
 
 Do mapy zapíšete požadované hodnoty – viz tabulka nahoře. Teď musíte najít takzvané „smyčky“ – oblasti se samými jedničkami, které zabírají dvě, čtyři nebo osm sousedících buňek. Ano, trochu to připomíná Tetris, ale ty tvary jsou jen „úsečka“ a „obdélník“. Snažte se najít co největší plochy. Smyčky se mohou překrývat.
 
@@ -35,31 +35,31 @@ Při hledání smyček můžete přecházet i přes hrany tabulky – jako by se
 
 Když máte smyčky hotové a pokryté všechny jedničky, můžete každé smyčce přiřadit její výraz. Například pro smyčku, tvořenou prvním řádkem (CD = 00) by to bylo „NOT C AND NOT D“ – tedy pokud je C = 0 a zároveň D = 0, je výsledek 1.
 
-![tabulka-str-505-2.png](images/000359.png)
+![tabulka-str-505-2.png](../images/000359.png)
 
 Smyčka čtyř buněk v posledním řádku je D = 1 AND C = 0, tedy D AND NOT C.
 
-![tabulka-str-505-3.png](images/000029.png)
+![tabulka-str-505-3.png](../images/000029.png)
 
 Smyčka tvořená prostředními dvěma sloupci platí pro stavy AB = 10 a 11\. Protože se B mění, můžeme ho zanedbat a říct jen, že výsledek bude 1, když je A = 1.
 
-![tabulka-str-506-1.png](images/000144.png)
+![tabulka-str-506-1.png](../images/000144.png)
 
 Je výhodné spojit první a poslední řádek do smyčky. Pak platí, že smyčka je aktivní pro C = 0 (D se mění, ignorujeme ho). Pro takovou smyčku tedy platí výraz NOT C.
 
-![tabulka-str-506-2.png](images/000232.png)
+![tabulka-str-506-2.png](../images/000232.png)
 
 No a teď můžeme jednotlivé výrazy spojit pomocí OR: A OR NOT C
 
 Jednoduché to bylo? Dobře, zkuste složitější:
 
-![tabulka-str-506-3.png](images/000326.png)
+![tabulka-str-506-3.png](../images/000326.png)
 
 Máte? Správnou odpověď najdete níže.
 
 Karnaughova mapa se hodí i v situacích, kdy funkce není zadána úplně, respektive zadavateli je jedno, jestli při určité kombinaci bude na výstupu 0, nebo 1\. Pak takové nezadané hodnoty zapíšete jako X a můžete si vybrat: Když se vám hodí takové políčko do smyčky, tak ho zahrňte a považujte za jedničku, když se nikam nehodí, považujte ho za 0 a ignorujte ho.
 
-![tabulka-str-506-4.png](images/000005.png)
+![tabulka-str-506-4.png](../images/000005.png)
 
 V takovémto případě zvolím jednu smyčku v prvním řádku (NOT C AND NOT D), jednu smyčku ve třetím sloupci (A AND B) a jednu smyčku 2 × 2 v horní části tabulky (NOT D AND A)
 

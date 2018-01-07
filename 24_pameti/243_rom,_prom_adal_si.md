@@ -10,7 +10,7 @@ Proto se paměti ROM moc neprodávaly – každý chtěl jiná data atd. Snad je
 
 Později výrobci nabídli paměti, které nazývali PROM – Programmable ROM. Ty obsahovaly jemné drátové propojky, které bylo možné určitým postupem a za použití vyššího napětí (většinou 12 voltů) přepálit, a tím naprogramovat jejich obsah. Jednou naprogramovaná paměť PROM už tedy nešla smazat a přeprogramovat znovu. (Funkce je tedy obdobná, jako u zapisovatelných CD a někdy se označuje jako paměť WORM – Write Once, Read Many.)
 
-![301-1.png](images/000274.png)
+![301-1.png](../images/000274.png)
 
 Paměť PROM byla velmi populární nejen pro ukládání řídicích programů, ale i pro vytváření logických kombinačních obvodů. Nevěříte? Sledujte!
 
@@ -20,7 +20,7 @@ Tato technika se používala až do doby, než přišly specializované obvody �
 
 PROM tedy koupíte prázdnou a naprogramujete si ji sami. Bohužel jen jednou. Jakmile je naprogramovaná, už s ní nehnete, protože jednou přepálenou propojku už nescelíte. Tuto nevýhodu odstranily až paměti EPROM (Erasable PROM), což jsou paměti, které bylo možno nejen naprogramovat, jako PROM, ale poté i smazat pomocí ultrafialového záření a naprogramovat znovu. K tomu, aby bylo možné tyto paměti mazat, byly vybaveny skleněným okénkem nad čipem.
 
-![302-1.jpeg](images/00370.jpeg)
+![302-1.jpeg](../images/00370.jpeg)
 
 Po pamětech EPROM přišly EEPROM, tedy „Electrically Erasable PROM“. Technicky obdoba EPROM, ale obsah nebylo nutné mazat ultrafialovým světlem. Pomocí speciální sekvence se nastaví, jaká oblast má být smazána, a obsah se smaže přímo za chodu zařízení, není potřeba paměti vyjímat a mazat pod UV lampou.
 

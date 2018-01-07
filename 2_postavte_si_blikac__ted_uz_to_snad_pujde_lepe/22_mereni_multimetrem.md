@@ -1,6 +1,6 @@
 ## 2.2 Měření multimetrem {#2-2-m-en-multimetrem}
 
-![052-1.jpeg](images/00087.jpeg)
+![052-1.jpeg](../images/00087.jpeg)
 
 CC-BY-SA, autor André Karwath
 
@@ -12,19 +12,19 @@ Teď zkuste na chviličku spojit oba hroty sond. Uvidíte, že číslo na disple
 
 Pro pořádek: symbolem „V“ a vodorovnou čárou volíte měření napětí ve voltech, případně milivoltech
 
-![053-1.jpeg](images/00089.jpeg)
+![053-1.jpeg](../images/00089.jpeg)
 
 Symbolem V s vlnovkou vybíráte rozsah měření pro střídavé napětí
 
-![053-2.jpeg](images/00093.jpeg)
+![053-2.jpeg](../images/00093.jpeg)
 
 Symbol A s vodorovnou čárkou znamená měření stejnosměrného proudu (v mikro - a miliampérech).
 
-![054-1.jpeg](images/00097.jpeg)
+![054-1.jpeg](../images/00097.jpeg)
 
 Symbol „omega“ (Ω) označuje rozsah pro měření odporů v ohmech a kiloohmech:
 
-![054-2.jpeg](images/00099.jpeg)
+![054-2.jpeg](../images/00099.jpeg)
 
 Jestli nevíte, jaký je přesně rozdíl mezi napětím a proudem, tak to teď nevadí, včas se to dozvíte. Teď jen přepněte multimetr na „200 Ω“.
 
@@ -34,12 +34,12 @@ _Pro zajímavost: Zkuste si teď rezistor otočit, prohodit červený a modrý h
 
 Zpátky k blikači. Zapojte rezistor 10K mezi vývody 1 a 2 integrovaného obvodu (IO). Na obrázku je rezistor nakreslený vlevo od IO a je připojen pomocí dvou vodičů. Je to proto, že vývody 1 a 2 jsou hned vedle sebe, a rezistor se mezi ně nevejde. Další možnost je zapojit rezistor našikmo, jedním vývodem do otvoru „d“, druhým do otvoru „a“, no a poslední možnost je zapojit jej „nastojato“ – jeden vývod zkrátíte, na druhém utvoříte ohyb o 180 stupňů, a tím se oba vývody dostanou vedle sebe a můžete je zapojit do sousedních otvorů.
 
-![055-1.jpeg](images/00100.jpeg)
+![055-1.jpeg](../images/00100.jpeg)
 
 _Jsme v polovině! Jupí..._
 
 Teď zapojte kondenzátor 10 μF mezi vývody 1 a 4\. Na kondenzátory multimetr většinou nemá měřicí rozsah, ale naštěstí jsou kondenzátory větší a vejde se na ně popis. Ten váš hledaný bude vypadat jako černý nebo modrý váleček s dvěma vývody na jednom konci. U jednoho vývodu je po celé délce pouzdra bílý proužek se stylizovaným znakem „minus“. Ten vývod bývá také kratší (ale nespoléhejte na to, třeba ho někdo ucvaknul – spolehlivý je ten proužek na pouzdru). Elektrolytický kondenzátor totiž má „kladný“ a „záporný“ vývod. Zapojte jej kladným na vývod 1 integrovaného obvodu, záporným na vývod 4.
 
-![055-2.jpeg](images/00104.jpeg)
+![055-2.jpeg](../images/00104.jpeg)
 
 Kdybyste teď připojili napájecí napětí, tak na vývodu 6 získáte pravidelné pulsy. Jenže je neuvidíte, neuslyšíte, neucítíte… Takže vám nezbývá, než mi to věřit – nebo si to ověřit!

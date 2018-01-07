@@ -6,7 +6,7 @@ Cívka při průchodu elektrického proudu vytváří kolem sebe magnetické pol
 
 Cívkou tedy bez problémů prochází stálý proud, ale proud, který se rychle mění, cívkou neprochází, protože rychlé změny magnetického pole pracují proti němu. Čím vyšší frekvence změn, tím větší odpor proudu cívka klade. Impedance cívky závisí na několika faktorech, ale především na počtu závitů, průměru závitů, materiálu, z něhož je vytvořeno jádro, ...
 
-![113-1.jpeg](images/00182.jpeg)
+![113-1.jpeg](../images/00182.jpeg)
 
 Cívky a kondenzátory se používají ke generování pravidelných kmitů, bez nichž se ve spoustě aplikací neobejdete. V číslicové technice ale nejsou moc používány, jejich nejčastější využití je v napájecím zdroji, kde slouží k tomu, aby propouštěly stálý proud, bez výkyvů a případných změn, popřípadě v tzv. spínaných zdrojích, kde fungují jako akumulátor pro elektrický náboj.
 

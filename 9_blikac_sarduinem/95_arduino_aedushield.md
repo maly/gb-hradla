@@ -26,6 +26,6 @@ Nebojte se, že zatím některým termínům nerozumíte. Během dalších kapit
 
 Já budu EduShield občas zmiňovat, když narazíme na nějaký příklad, který se na něm dá dobře demonstrovat. K pochopení výkladu ale není nezbytně nutné, abyste jej měli.
 
-![115-1.png](images/000197.png)
+![115-1.png](../images/000197.png)
 
 ##### 10 Fotorezistor {#10-fotorezistor}

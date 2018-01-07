@@ -6,7 +6,7 @@ Zaprvé: Buď použijete tu, co máte v počítači, v mobilu, v lednici nebo kd
 
 My budeme stavět, protože nás baví elektronika. Dnes existují dva hlavní způsoby stavby kalkulačky. Jeden je opravdu retro, při něm použijete staré kalkulačkové obvody (MHB7001, MC14007), druhý je modernistický, pod heslem _pokud to můžu poskládat z hotových modulů z eBay za dolar až pět včetně poštovného, tak to poskládám z modulů!_
 
-_![380-1.jpeg](images/00369.jpeg)_
+_![380-1.jpeg](../images/00369.jpeg)_
 
 Já si takhle vyhlédl modul na fotografii. Je tam osm osmisegmentovek a šestnáct tlačítek a připojuje se to přes SPI, tedy tři dráty (+ 2 na napájení). _Až ho budete hledat na eBay či AliExpressu, hledejte „keyboard display TM1638“._
 
@@ -14,7 +14,7 @@ Všimněte si, jak jsem ho k Arduinu připojil.
 
 Na Arduinu najdete speciální konektor s šesti piny (2 × 3), označený ICSP. Je tam + 5 V a zem, jsou tam tři datové vývody (11, 12 a 13) a RESET. Pokud zrovna nehodláte programovat jednočip, tak jsou volné a jsou natvrdo připojené na piny, kde je vyvedené rozhraní SPI.
 
-![381-1.png](images/000349.png)
+![381-1.png](../images/000349.png)
 
 Zmíněný modul používá k řízení tlačítek a displeje čínský obvod TM1638\. Existuje datasheet, ale v podobné situaci je nejjednodušší podívat se, jestli už není hotová knihovna pro Arduino. Většinou už ji někdo udělal. Stejně jako v tomto případě.
 
@@ -26,7 +26,7 @@ Kalkulačka potřebuje 10 tlačítek pro číslice. Zbývá jich 6\. Jedno tlač
 
 Namapujeme si je takto:
 
-![382-1.png](images/000284.png)
+![382-1.png](../images/000284.png)
 
 První pokus mi ukázal, že obvod by sice měl odstranit zákmity, ale nějak se mu to nedařilo, takže jsem si je ošetřil sám.
 

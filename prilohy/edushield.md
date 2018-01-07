@@ -1,6 +1,6 @@
 ## EduShield {#edushield}
 
-![497-1.jpeg](images/00213.jpeg)
+![497-1.jpeg](../images/00213.jpeg)
 
 Použité piny na Arduino
 
@@ -19,7 +19,7 @@ Použité piny na Arduino
 | D12 | --- |  |  |
 | D13 | Green LED |  |  |
 
-![498-1.png](images/000352.png)
+![498-1.png](../images/000352.png)
 
 Přiřazení pinů v ATtiny2313 k vývodům na konektoru pro displej (pin 1 je vlevo dole):
 

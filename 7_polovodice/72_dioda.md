@@ -4,11 +4,11 @@ Ano, polovodičová dioda je ve skutečnosti přesně toto – jsou to dva mali�
 
 Teď už je jasné, jak je možné, že diodou prochází proud jen jedním směrem. Ostatně – dobrou pomůckou je už samotný symbol diody, kde trojúhelník tvoří malou šipku. Ta ukazuje směr, kterým diodou teče proud – od anody ke katodě.
 
-![87-1.png](images/000111.png)
+![87-1.png](../images/000111.png)
 
 Mimochodem, když už je řeč o schematických značkách – víte, jaký je rozdíl mezi následujícími symboly?
 
-![87-2.png](images/000169.png)
+![87-2.png](../images/000169.png)
 
 Všechny symboly označují totéž: diodu. Jen se v různých dobách kreslily různě. Dřív se hodně dbalo na ten kroužek okolo symbolu (kroužek symbolizuje pouzdro součástky). Setkáte se ale při čtení schématů se všemi. Hlavní rozdíl je, že jen jeden z nich je podle platné normy (je to ten druhý zleva). Měli byste tedy používat ten normovaný. Co ale naděláte, když zrovna ten váš program, který ke kreslení použijete, bude mít symbol pro diodu jiný? Upřímně řečeno: neřešil bych to. Pokud bude poznat, že to je dioda, tak v pořádku. (Což je zase rada strýčka bastlíře.)
 

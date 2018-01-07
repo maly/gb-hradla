@@ -8,6 +8,6 @@ Modifikací tohoto obvodu dostaneme zapojení, které se přepíná pouze v jedn
 
 Výsledek se nazývá „klopný obvod D“. Můžeme si to představit jako paměťovou buňku pro jeden bit informace. Přivedeme tento bit na vstup D (buď 1, nebo 0), a „zapamatujeme“ si jej tak, že na vstup Clock přivedeme krátký impuls. Impulsem je míněn přechod z 0 do 1 a opět zpátky na  0\. Nějak takto:
 
-![223-2.png](images/000092.png)
+![223-2.png](../images/000092.png)
 
 Zapamatovaná hodnota je na výstupu Q, na výstupu /Q (NOT Q) je jeho negovaná hodnota.

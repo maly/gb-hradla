@@ -6,7 +6,7 @@ Až další evoluční krok, nazvaný TTL (Transistor-Transistor Logic), vyšel.
 
 Technologie TTL stanovovala výše zmíněné úrovně: 0 voltů pro logickou 0, + 5 voltů pro logickou 1\. Díky technologii, která byla použitá, nejsou hodnoty naprosto striktní. Běžný TTL obvod vezme jako logickou 0 jakékoli napětí mezi 0 a 0,8 voltu a jako logickou 1 napětí mezi 2 a 5 volty. Tyto hranice se označují jako VIL a VIH. Proč?
 
-![174-1.png](images/000347.png)
+![174-1.png](../images/000347.png)
 
 Je takový zvyk označovat logickou nulu písmenem L (Low, nízký, nepravda, false, ...) a logickou jedničku písmenem H (High, vysoký, pravda, true, ...) Používá se to tam, kde by se mohlo plést označení 0 a 1 s nějakými jinými číselnými hodnotami. Ale zvykněte si, že veškerá literatura nakládá s tímto označením naprosto volně, v jednom datasheetu se setkáte s H, L, v druhém s 1, 0… Mělo by platit, že 0 a 1 se používá tam, kde se hovoří o logické hodnotě, L a H tam, kde jde o konkrétní vyjádření těchto hodnot, jenže naprosto běžně uslyšíte mluvit dva techniky, že „mají ten vstup v jedničce“. Takže doporučuju se s tím smířit.
 
@@ -40,7 +40,7 @@ Technologie CMOS a její vylepšené varianty je v současnosti nejpoužívaněj
 
 Postupem času ale bylo potřeba řešit i ten první problém, totiž spotřebu a ztrátový výkon, proměněný na teplo. Logická cesta vedla přes snižování napájecího napětí. Nejprve na 3,3 voltů, později na 2,5 V, pak na 1,8 V, dneska už i 1,2 V a 1 V. Některé součástky, používající 3,3 voltovou logiku (též označovanou 3V3), jsou takzvaně „5 V-tolerantní“, což znamená, že když na jejich vstupy přivedete signál z 5 V obvodu, který bude mít třeba i těch 5 voltů, tak je nespálí. Jiné obvody (například procesor ve známém Raspberry Pi – tak na to pozor, prosím) nejsou 5 V-tolerantní, to znamená, že je vyšší napětí může poškodit. Výhodou 3V3 logiky je to, že má úrovně VIL, VIH, VOL a VIOH shodné s 5 V, takže není problém takové součástky navzájem propojovat (vždy je ale třeba dbát na to, jestli jsou 3V3 součástky na vstupu 5 V-tolerantní). Víc naznačí obrázek:
 
-![ttl-cmos.png](images/000120.png)
+![ttl-cmos.png](../images/000120.png)
 
 ### 13.3.1 Propojení CMOS a TTL {#13-3-1-propojen-cmos-a-ttl}
 

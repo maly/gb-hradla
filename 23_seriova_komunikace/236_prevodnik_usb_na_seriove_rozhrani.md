@@ -4,8 +4,8 @@ Mimochodem, když už jsem to nakousnul – takové převodníky USB na sériov�
 
 V nejjednodušší podobě má takový převodník vyvedenou zem, napětí 5 V (z USB) a 3,3 V (stabilizovaných), a vývody TxD a RxD.
 
-![292-1.jpeg](images/00257.jpeg)
+![292-1.jpeg](../images/00257.jpeg)
 
 Já ale doporučuju dát si trochu víc práce a najít takový, který má vyvedené i další signály. Bude třeba o dolar dražší, ale využijete ho například pro programování některých zařízení, které potřebují signál RESET. Klíčová slova: _USB to TTL converter DTR_.
 
-![293-1.jpeg](images/00391.jpeg)
+![293-1.jpeg](../images/00391.jpeg)

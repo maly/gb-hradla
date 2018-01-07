@@ -4,7 +4,7 @@ Aby Arduino k něčemu bylo, musí v něm být nějaký program. K programován�
 
 Arduino IDE si stáhnete ze stránek [Arduino.cc](http://Arduino.cc) pro všechny tři hlavní OS – Windows, Linux i macOS.
 
-![109-1.png](images/000276.png)
+![109-1.png](../images/000276.png)
 
 Udělejte to.
 

@@ -4,13 +4,13 @@ Pojďme si zase něco vymyslet… Třeba… Pamatujete se na to zapojení s tla�
 
 Co třeba takhle… Bude tam kondenzátor a rezistor. Kondenzátor se nabije, nějak, to teď nebudeme řešit. No a pak se bude pomalu vybíjet přes ten rezistor, a až se vybije pod určitou mez, tak to nějak přepne výstup.
 
-![213-1.png](images/000239.png)
+![213-1.png](../images/000239.png)
 
 Tak, a teď dvě otázky: jak zajistit ten výstup, a jak zajistit to úvodní nabití?
 
 Výstup bude jednodušší: prostě na tu horní část připojíme invertor, ideálně se Schmittovým vstupem. Takto:
 
-![213-2.png](images/000282.png)
+![213-2.png](../images/000282.png)
 
 Na výstupu bude tedy v klidu logická 1, když bude kondenzátor nabitý, bude na výstupu 0, a jak bude napětí klesat, tak v určitém bodě se invertor opět přepne do 1.
 
@@ -18,7 +18,7 @@ To bychom měli. Teď jak zajistit to nabití? Co třeba stejně, tedy přivést
 
 Zkusíme to tedy takhle:
 
-![214-1.png](images/000335.png)
+![214-1.png](../images/000335.png)
 
 Otázka za sto bodů: proč jsem použil na vstupu invertor se Schmittovým obvodem, když by tam mohl být klidně obyčejný? Nemá to žádnou komplikovanou příčinu, prostě jen vím, že invertory se dělají v pouzdrech po šesti, a když použiju obvod 7414, mám v něm šestici invertorů se Schmittovým obvodem na vstupu. Tak ho rovnou použiju, když je v témže pouzdru. Proč bych tam dával další pouzdro, že?
 
@@ -30,7 +30,7 @@ Chtělo by to nějakou součástku. Nějakou takovou, která by pustila proud je
 
 A zatímco přemýšlíte, jaká součástka by to mohla být, tak já si tu něco jen tak nakreslím:
 
-![215-1.png](images/000067.png)
+![215-1.png](../images/000067.png)
 
 Bude to fungovat? No, zkuste si.
 
@@ -50,4 +50,4 @@ A co kdybychom chtěli, aby byl klidový stav klopného obvodu v 0, a aktivní v
 
 [eknh.cz/monopos](https://eknh.cz/monopos)
 
-![216-1.png](images/000014.png)
+![216-1.png](../images/000014.png)

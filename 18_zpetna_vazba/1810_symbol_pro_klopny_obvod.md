@@ -2,7 +2,7 @@
 
 Už jste si mohli všimnout, že jakmile poskládáte složitější obvod, tak někdo (no dobře, jsem to já) přiběhne a udělá z něj „black box„, obdélník, kde popíše, jaké jsou vstupy (vlevo) a jaké jsou výstupy, a je to.
 
-![224-1.png](images/000199.png)
+![224-1.png](../images/000199.png)
 
 Stalo se to i s vaším klopným obvodem D. Všimněte si, že vstupy D a CLK jsou vlevo, a u CLK je malá šipka. Ta označuje, že vstup má funkci hodinového vstupu, synchronizace. Dokonce podle směru šipky (do obvodu / z obvodu) můžeme poznat, jestli jde o hodinový vstup spouštěný vzestupnou hranou nebo sestupnou hranou. Kroužek u vstupu nebo výstupu značí negovaný signál, tedy takový který je aktivní v logické 0.
 

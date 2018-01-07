@@ -16,7 +16,7 @@ Chcete poradit trik, jak diodou zobrazovat negovaný výstup? Zapojte ji ne k ze
 
 Zkuste si to takto přepojit, uvidíte, že teď bude LED svítit přesně opačně, tedy ve stavu 0.
 
-![156-1.png](images/000132.png)
+![156-1.png](../images/000132.png)
 
 A když už v tom budete, podívejte se, co se stane, když použijete jen jedno tlačítko, a to připojíte:
 

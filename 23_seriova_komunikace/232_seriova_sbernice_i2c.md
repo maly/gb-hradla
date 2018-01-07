@@ -6,7 +6,7 @@ Na první pohled vypadá I2C velmi podobně jako SPI, jen má míň vodičů. Kr
 
 Opět platí, že máme jeden „master“ obvod (může jich být i víc, ale nejčastěji je jeden) a k němu připojené periferní obvody. Každý periferní obvod má, na rozdíl od SPI, vlastní sedmibitovou adresu, tedy v rozsahu 0 až 127\. Adresy nejsou úplně libovolné, většinou jsou pevně dané výrobcem – či alespoň jejich část. Pokud chceme zapojit dva obvody stejného typu naráz, musí podporovat možnost zapojit je na různé adresy. Jak vidno, sedm bitů není příliš mnoho, navíc některé kombinace jsou vyhrazené pro speciální použití, a tak se pomalu prosazuje novější standard s desetibitovými adresami.
 
-![284-1.png](images/000366.png)
+![284-1.png](../images/000366.png)
 
 Ve všech zařízeních jsou vývody SDA a SCL navrženy „s otevřeným kolektorem“. Už jsme se s tím setkali, vzpomeňte si: takový výstup je buď ve stavu 0, nebo ve stavu „odpojeno“. Výhodou je, že můžeme takové vývody spojovat dohromady, nevýhoda je, že potřebuje pull-up rezistor, aby mohla být na vedení za klidového stavu logická 1\. Další výhoda takového zapojení je, že vývod může být zároveň výstup i vstup. Pokud funguje jako výstup, je buď 0, nebo „odpojen“. Pokud má fungovat jako vstup, nechává se „odpojen“, a obvod „naslouchá“, jestli je na vedení 0, nebo 1.
 

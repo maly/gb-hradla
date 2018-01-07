@@ -12,7 +12,7 @@ Upravme naše zapojení tak, že využije tranzistor ke spínání LED. Budeme m
 
 Teoretický výsledek je fajn, ale nejlepší bude na místě R2 použít trimr 100k, a ten přesně nastavit podle požadované úrovně osvětlení.
 
-![120-1.png](images/000271.png)
+![120-1.png](../images/000271.png)
 
 Za naprosté a absolutní tmy (nereálné, já vím) poteče rezistorem R2 proud 0,08 mA (uvažuju hodnotu R2 rovnou 62k). Pokud použijeme např. tranzistor BC547B s proudovým zesilovacím činitelem okolo 300, může při 0,08 mA bází téct kolektorem (a tedy LEDkou) až 24 mA, což je dost (ve skutečnosti bude proud omezen rezistorem 330R na 15 mA).
 

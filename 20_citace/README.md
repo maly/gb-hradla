@@ -4,7 +4,7 @@ Musím se vám k něčemu přiznat. Když jsem jako desetiletý chlapec dostal d
 
 Představte si, že vezmete několik „děliček kmitočtů“ a zapojíte je za sebe. Nějak takto:
 
-![242-1.png](images/000030.png)
+![242-1.png](../images/000030.png)
 
 [eknh.cz/cit3](https://eknh.cz/cit3)
 
@@ -12,7 +12,7 @@ Vstupy T jsou připojené na Vcc – napájecí napětí, takže jsou ve stavu l
 
 Na vstup pak přivedeme hodinový signál. Co se stane?
 
-![242-2.png](images/000078.png)
+![242-2.png](../images/000078.png)
 
 Na výstupu A bude hodinový signál s polovičním kmitočtem, na výstupu B se čtvrtinovým, na výstupu C s osminovým… A když se podíváte na stav na vývodech CBA v čase, uvidíte opakující se vzorec:
 
@@ -24,7 +24,7 @@ Tedy v dvojkovém kódu 7 – 6 – 5 – 4 – 3 – 2 – 1 – 0 – 7 – 6 
 
 Když vezmete data z negovaných vývodů, dostanete vzestupnou sekvenci:
 
-![243-1.png](images/000045.png)![243-2.png](images/000081.png)
+![243-1.png](../images/000045.png)![243-2.png](images/000081.png)
 
 [eknh.cz/citn](https://eknh.cz/citn)
 
