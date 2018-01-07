@@ -8,11 +8,11 @@ Samozřejmě, může si je zaznamenávat do vnitřní paměti, ale tam se jich m
 
 Taková paměťová karta se k Arduinu připojujue jako zařízení na sběrnici SPI – používá tedy signály MOSI, MISO, SCK a Slave Select. MOSI, MISO a SCK mají v Arduinu pevná místa, SS připojte třeba na pin 4 – to je častý způsob.
 
-![314-1.jpeg](../images/00278.jpeg)
+![314-1.jpeg](./images/00278.jpeg)
 
 Mimochodem – SD karty vyžadují napájení 3,3 voltu, ale naštěstí různé adaptéry „SD Card for Arduino“ obsahují převodníky úrovní a stabilizátor:
 
-![314-2.jpeg](../images/00157.jpeg)
+![314-2.jpeg](./images/00157.jpeg)
 
 Pro Arduino existuje knihovna SD, která výrazně zjednodušuje práci s těmito kartami. Při inicializaci stačí zavolat metodu SD.begin(cs), kde cs je číslo pinu, kam jste připojili Slave Select pro SD kartu.
 
