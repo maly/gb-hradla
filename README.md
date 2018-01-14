@@ -1,4 +1,4 @@
-# Tiráž {#index}
+
 
 ![978-80-88168-24-9](/images/26198014_338516999959219_6557738540132501234_o.jpg)
 
@@ -13,7 +13,17 @@
 Martin Malý
 
 
-
+<p>Pro čtenáře, kteří jsou spokojeni s elektronickým vydáním tištěnou verzi nechtějí, a přesto by rádi autorovi přispěli, tu je několik možností:
+					<ul>
+						<li><a href="paypal.me/malycz">Poslat libovolnou částku přes PayPal</a></li>
+						<li><a href="bitcoin:37QkzwNnP1F4PTVS337CcxhT26jvFwvehW">Příspěvek Bitcoin</a>
+							<br><img src="assets/btc.png"></li>
+						<li><a href="litecoin:LccfBhSRC5RPwhvZTZSY5pG6xsJJUgoXek">Příspěvek Litecoin</a>
+						<br><img src="assets/ltc.png"></li>
+						<li><a href="bitcoincash:1DCtAfVad6kKw74zS3xyi3tP3JxDhEV3uh">Příspěvek Bitcoin Cash</a>
+						<br><img src="assets/bch.png"></li>
+					</ul>
+</p>
 
 
 **Vydavatel**:
