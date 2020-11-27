@@ -28,7 +28,7 @@ Uvnitř bývá mechanická propojka, která vždy spojí prostřední vývod (sp
 
 Přepínač nemusí být jen páčkový, jak jej známe ze starších elektronických výrobků. Může být třeba posuvný.
 
-![145-1.png](../images/000393.png)![145-2.jpeg](images/00403.jpeg)
+![145-1.png](../images/000393.png)![145-2.jpeg](../images/00403.jpeg)
 
 Tento přepínač se dá, při troše dobré vůle, použít i do nepájivého kontaktního pole. Bohužel, rozteč vývodů u některých laciných přepínačů může být pouze 2,5 mm, ne 2,54, a tak lehce nesedí, což je škoda. Snažte se proto sehnat takové, které mají rozteč 2,54 mm.
 

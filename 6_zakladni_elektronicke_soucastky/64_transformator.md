@@ -22,7 +22,7 @@ V napájecích obvodech u PC se používá kombinace transformátoru a spínané
 
 Označení 7805 nese součástka, kterou vyráběla už Tesla za socialismu. Jde o napěťový stabilizátor, který dokáže snížit napětí v rozsahu 7,5 V – 35 V na napětí 5 voltů. Jeho zapojení je velmi jednoduché: je to součástka se třemi vývody. Prostřední je společná zem, a dva krajní jsou vstup a výstup. Zapojuje se spolu se dvěma kondenzátory:
 
-![115-1_.png](../images/000205.png)![115-2.png](images/000216.png)
+![115-1_.png](../images/000205.png)![115-2.png](../images/000216.png)
 
 Někde se setkáte i s doporučením použít elektrolytické kondenzátory s řádově vyšší kapacitou, třeba i 10 µF. To může pomoci s vykrýváním odběrových špiček, ale zase má zdroj pomalejší náběh.
 

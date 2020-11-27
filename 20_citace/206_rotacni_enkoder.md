@@ -4,7 +4,7 @@ Samozřejmě, že se takovéhle věci používají i v praxi. Těm součástkám
 
 Taková součástka má uvnitř podobný kotouček s Grayovým kódem. Má dva vývody, na kterých se střídají hodnoty 00 – 01 – 11 – 10, nebo 00 – 10 – 11 – 01, to podle směru otáčení. Na jednu otáčku mívají typicky 20 kroků, a navíc bývají kombinovány s tlačítkem, takže lze zařízení ovládat pomocí otáčení do dvou směrů a mačkání tlačítka.
 
-![263-1.png](../images/000328.png)![263-2.png](images/000302.png)
+![263-1.png](../images/000328.png)![263-2.png](../images/000302.png)
 
 Jak takové signály číst? No, jsou dva možné způsoby. Buď budete vzorkovat oba signály a podle přechodové funkce zkoušet, jestli se ovladač otáčí doleva nebo doprava. No a nebo se podíváte na graf průběhů výše a dojde vám to…
 

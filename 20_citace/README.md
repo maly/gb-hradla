@@ -24,7 +24,7 @@ Tedy v dvojkovém kódu 7 – 6 – 5 – 4 – 3 – 2 – 1 – 0 – 7 – 6 
 
 Když vezmete data z negovaných vývodů, dostanete vzestupnou sekvenci:
 
-![243-1.png](../images/000045.png)![243-2.png](images/000081.png)
+![243-1.png](../images/000045.png)![243-2.png](../images/000081.png)
 
 [eknh.cz/citn](https://eknh.cz/citn)
 

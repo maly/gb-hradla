@@ -10,7 +10,7 @@ LV a HV je nízké (low) a vysoké (high) napájecí napětí, LV1, respektive H
 
 Naštěstí nemusíte sestavovat a pájet převodníky, existují jako hotové moduly, nejčastěji pro čtyři signály, nebo pro osm signálů:
 
-![398-1.jpeg](../images/00220.jpeg)![398-2.jpeg](images/00059.jpeg)
+![398-1.jpeg](../images/00220.jpeg)![398-2.jpeg](../images/00059.jpeg)
 
 Na jedné straně, tam, kde je LV, se připojují signály obvodu 3,3 V, na straně HV se připojují 5 V. LV a GND (resp. HV a GND) slouží k připojení napájecího napětí.
 

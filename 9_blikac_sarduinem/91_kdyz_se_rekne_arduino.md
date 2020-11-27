@@ -24,10 +24,10 @@ A kromě těchto Arduin je i spousta dalších desek a kitů, které se jmenují
 
 Existují i Arduina, která jsou osazena jiným procesorem, než je Atmel AVR – například procesorem z rodiny ARM:
 
-![106-2.jpeg](../images/00235.jpeg)![106-3.jpeg](images/00242.jpeg)
+![106-2.jpeg](../images/00235.jpeg)![106-3.jpeg](../images/00242.jpeg)
 
 Tato Arduina mají sice stejné vývody, ale vyžadují jiné napětí – ne 5 voltů, ale 3,3 voltu. Později si vysvětlíme, co to znamená, teď si pamatujte: pro začátek tato Arduina nepoužívejte, použijte Uno!
 
 Zajímavá varianta Una je miniaturní Nano. Výhoda tohoto Arduina je, že ho lze zasunout do nepájivého kontaktního pole:
 
-![107-1.jpeg](../images/00250.jpeg)![108-1.jpeg](images/00254.jpeg)
+![107-1.jpeg](../images/00250.jpeg)![108-1.jpeg](../images/00254.jpeg)

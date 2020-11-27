@@ -20,7 +20,7 @@ Ke každému registru můžeme (přes rezistory) připojit sedmisegmentovku. Vý
 
 Pojďte si to zapojit. Jen obvod 74595 a sedmisegmentovku. Bude se to celé budit z Arduina. Aspoň se pocvičíte v práci se sériovými daty.
 
-![278-2.png](../images/000019.png)![279-1.png](images/000360.png)
+![278-2.png](../images/000019.png)![279-1.png](../images/000360.png)
 
 Schéma a zdrojový kód najdete na [eknh.cz/595](https://eknh.cz/595)
 

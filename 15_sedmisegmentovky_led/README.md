@@ -10,7 +10,7 @@ Sedmisegmentovka má opravdu sedm segmentů. Označují se tradičně písmeny A
 
 Sedmisegmentovky se skládají ze sedmi (s tečkou z osmi) svítících diod (LED), které jsou paralelně spojené. Ovšem je otázka, jak jsou spojené, jestli katodami, nebo anodami.
 
-![184-1.png](../images/000318.png)![184-2.png](images/000375.png)
+![184-1.png](../images/000318.png)![184-2.png](../images/000375.png)
 
 Podle toho, jestli je sedmisegmentovka se společnou katodou (CC, Common Cathode), nebo se společnou anodou (CA, Common Anode), se bude lišit i práce s ní. U sedmisegmentovky se společnou katodou se společný vývod zapojuje na zem, a segmenty budou svítit tehdy, když bude na příslušný vstup přivedeno kladné napětí (tedy log. 1). U společné anody tomu bude obráceně – společná anoda je zapojena na kladné napájecí napětí, a segment, který má svítit, musí mít vstup v log. 0, neboli uzemněný.
 
